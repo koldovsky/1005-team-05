@@ -49,14 +49,11 @@
 .nav__menu-list {
    display: inline;
    align-items:center;
- 
-   
 }
 .nav__menu-item {
     display: inline;
     list-style-type: none;
     margin:5px;
-    
 }
 .header-social>img {
     margin: 15px;
