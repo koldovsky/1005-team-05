@@ -36,3 +36,6 @@
     font-weight: bolder;
     position: left;
 }
+.philosophy__links h3 {
+    display:inline-block
+}
