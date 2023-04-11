@@ -39,8 +39,8 @@
 .philosophy__links h3 {
     display:inline-block
 }
-a{
+#philosophy a{
     text-decoration: none;
-    text-align: left;
+    text-align: center;
     width: 49%;
 }
