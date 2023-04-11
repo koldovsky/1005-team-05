@@ -1,0 +1,53 @@
+/*header {
+    background-image: url('/img/background-header-picture.png');
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100%;
+    color: #ffffff;
+    background-size: cover;
+}
+.header-social {
+    order: 3;
+    width:40px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 50px;
+}
+.header__american-campers-logo {
+    order: 1;;
+    width:136px;
+    flex-basis: 10%;
+    align-self: center;
+}
+.header__menu {
+    order:2;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-self: center;
+    justify-content:end;
+}
+.header__container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+}
+.nav__menu-list {
+   display: inline;
+   align-items:center;
+ 
+   
+}
+.nav__menu-item {
+    display: inline;
+    list-style-type: none;
+    margin:5px;
+    
+}
+.header-social>img {
+    margin: 15px;
+    min-width: 30px;
+}
+*/
