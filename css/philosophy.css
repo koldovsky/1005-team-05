@@ -31,11 +31,14 @@
 
 .philosophy__links {
     height: 250px;
-    text-align: center;
+    text-align: bottom;
     font-family: sans-serif;
     font-weight: bolder;
     position: left;
 }
 .philosophy__links h3 {
     display:inline-block
+}
+a{
+    text-decoration: none;
 }
