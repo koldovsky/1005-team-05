@@ -2,7 +2,7 @@
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
 <svg height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
 	 viewBox="0 0 512 512" xml:space="preserve">
-<circle style="fill:#D22215;" cx="256" cy="256" r="256"/>
+<circle style="fill:orange;" cx="256" cy="256" r="256"/>
 <path style="fill:#A81411;" d="M384.857,170.339c-7.677,2.343-15.682,4.356-23.699,6.361
 	c-56.889,12.067-132.741-20.687-165.495,32.754c-27.317,42.494-35.942,95.668-67.017,133.663L294.629,509.1
 	c110.47-16.72,197.773-104.036,214.476-214.511L384.857,170.339z"/>
