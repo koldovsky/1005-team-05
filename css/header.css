@@ -1,0 +1,80 @@
+/** {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    
+}
+a {
+    text-decoration:none;
+}
+.header {
+    background: url('/img/background-header-picture.png') 50.31% 100% / cover;
+    filter:saturate(140%);
+    background-repeat: no-repeat;*/
+    /*background-size: 100%;*/
+    /*max-width: 100vw;
+    max-height: 100vh;
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+}
+.header-social {
+    order: 3;
+    width:40px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 50px;
+}
+.header__american-campers-logo {*/
+   /* overflow-clip-margin: content-box;*/
+   /*border-image-repeat: stretch;
+   vertical-align: baseline;
+    order: 1;;
+    max-width:136px;
+    align-self: center;
+}
+.header__menu {
+    order:2;
+    flex-basis: 50%;
+    display: flex;
+   flex-direction: row;
+    list-style-type: none;
+    align-self: center;
+    justify-content: end;
+}
+.header__container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;*/
+   /* flex-wrap: wrap;*/
+/*}
+.nav__menu-list {
+   display: inline;
+   align-items:center;
+   text-align: end;
+   
+}
+.nav__menu-item {
+    display: inline;
+    list-style-type: none;
+    margin:5px;
+    
+}
+.header-social>img {
+    margin: 15px;
+    min-width: 30px;
+}
+.nav__menu-item>a {
+    color: #ffffff;
+}
+.header__under-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header__center-line {
+    max-width:max-content ;
+}*/

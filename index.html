@@ -5,102 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Camping Club</title>
     <link rel="icon" href="img/american-campers-logo.png">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body style="background-color: rgb(227, 233, 233);">
-    <!--Dmytro Smotiy-->
-    <header class="header">
-        <div class="header__container">
-            <div class="header__american-campers-logo">
-                <img src="img/american-campers-logo.png" alt="American-Campers Logo">
-            </div>
-            <nav class="header__menu nav">
-                <ul id="menu" class="nav__menu-list">
-                    <li class="nav__menu-item"><a href="#" class="nav__menu-link">Adventures</a></li>
-                    <li class="nav__menu-item"><a href="#" class="nav__menu-link">About us</a></li>
-                    <li class="nav__menu-item"><a href="#" class="nav__menu-link">Gallery</a></li>
-                    <li class="nav__menu-item"><a href="#" class="nav__menu-link">Testimonials</a></li>
-                    <li class="nav__menu-item"><a href="#" class="nav__menu-link">FAQ</a></li>
-                    <li class="nav__menu-item"><a href="#" class="nav__menu-link">Contact us</a></li>
-                </ul>
-            </nav>
-            <div class="header-social">
-                <img width="40" src="img/facebook-logo.svg" alt="Facebook logo">
-                <img width="40" src="img/instagram-logo.svg" alt="Instagram logo">
-                <img width="40" src="img/youtube-logo.svg" alt="YouTube logo">
-            </div>
-        </div>
-        <div>
-            <p>Experience</p>
-            <h1 class="header__main-text">WILD LIFE</h1>
-        </div>
-        <div class="header__line-center-line">
-            <img src="img/line-center-header.png" alt="White line in a center header">
-        </div>
-        <div class="header__tagline">
-            <p class="header__tagline-text">Comfortable camping tours for couples and families with kids of any age.</p>
-        </div>
-
+    <header>
+        <!--Dmytro Samotiy-->
+        <div data-include="header.partial.html"></div>
+        <!--Dmytro Samotiy-->
     </header>
-    <!--Dmytro Smotiy-->
     <main>
-
-<!--Ostap Ohorodnyk-->
-    <section id class="nature">
-        <div class="nature__banner"> 
-            <h2 class="nature__title">Want to Get Closer to Nature?</h2>
-            <p class="nature__text">Join our camping tours and see the real wild life!</p>
-        </div>
-        <div class="nature__link">
-            <a href="#contacts" class="nature__button">Book a Tour</a>
-        </div>
-    </section>
-<!--Ostap Ohorodnyk-->
-    <section id="testimonials" class="testimonials">
-        <dsv class="testimonials__title">
-            <h2 class="testimonials__banner">Testimonials</h2>
-        </dsv>
-        <div class="testimonials__cards">
-            <div class="testimonials__cards_items">
-                <p class="card_items_text">" This was my first camping trip and it was one of the top vacations of my life. What a great experience and adventure! The guides were very professional, knowledgeable and experienced. My daughter loved the camping and we will continue exploring the country. "</p>
-                <p class="card_data">October 13, 2017</p>
-                <img src="img/lucy_peterson.jpeg" alt="Lucy Peterson foto" class="card_foto_items">
-                <p class="card_name">Lucy Peterson</p>
-            </div>
-            <div class="testimonials__cards_items card_color">
-                <div class="testimonials__cards_items">
-                    <p class="card_items_text">" My girlfriend and I enjoyed the weekend camping with experienced guides. We traveled to Yellowstone and are still impressed by the fantastic nature! Everything was planned to the smallest detail, we only needed to take personal belongings with us. "</p>
-                    <p class="card_data">January 28, 2018</p>
-                    <img src="img/alex_gordons.jpeg" alt="Alex Gordons foto" class="card_foto_items">
-                    <p class="card_name">Alex Gordons</p>
-            </div>
-            <div class="testimonials__cards_items">
-                <div class="testimonials__cards_items">
-                    <p class="card_items_text">" We decided to introduce our children to camping trips, they are 5 and 9 years old now. The kids really enjoyed such an active holiday. They learned to fish in the lake, climb trees, make a fire. I hope they will remember some interesting facts that the guides told us. Thank you! "</p>
-                    <p class="card_data">May 05, 2019</p>
-                    <img src="img/lucy_peterson.jpeg" alt="Phil Smith foto" class="card_foto_items">
-                    <p class="card_name">Phil Smith</p>
-            </div>
-        </div>
-    </section>
         <!-- Ana Rotach -->
-        <!-- Aliona Sahaidak -->
-        <!--Dmytro Smotiy-->
+        <section data-include="philosophy.partial.html"></section>
+        <!-- Danylo Symonov -->
         <!--Svitlana Silvestrova-->
-        <!--Maksym Smolynets-->
-        <!--Oleksiy Rudeyko-->
+        <section data-include="tours.partial.html"></section>
+        <!--Maksym Smolinets-->
+        <section data-include="ourteam.partial.html"></section>
+        <!--Maksym Smolinets-->
         <!--Ostap Ohorodnyk-->
-        <!--Sergiy Starodubov-->
-
-
-
-
+        <section data-include="nature.testimonials.partial.html"></section>
+        <!--Ostap Ohorodnyk-->
+        <!--Oleksiy Rudeyko-->
+        <section data-include="faq.partial.html"></section>
+        <!--Oleksiy Rudeyko-->
+        <!-- Aliona Sahaidak -->
+        <section data-include="partners.partial.html"></section>
+        <!-- Aliona Sahaidak -->
+        <!-- sergiy goryainov -->
+        <section data-include="contacts.partial.html" id="contacts"></section>
+        <!-- sergiy goryainov -->
     </main>
-    <footer>
-
-    </footer>
+    <!-- sergiy goryainov -->
+    <footer data-include="footer.partial.html"></footer>
+    <!-- sergiy goryainov -->
+    <script src="js/html-data-include.js"></script>
 </body>
 
 </html>
