@@ -99,9 +99,8 @@
    .header__container {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;*/
-      /* flex-wrap: wrap;*/
-   /*}
+      justify-content: space-around;
+   }
 
    .nav__menu-list {
       display: inline;
@@ -114,8 +113,7 @@
       display: inline;
       list-style-type: none;
       margin: 5px;
-      text: size 12px;
-      ;
+      font-size: 12px;
 
    }
 
@@ -200,13 +198,13 @@
    width: 150px;
    height: 40px;*/
    /* box-shadow: 16px 14px 20px #db6f4d;*/
-  /* border-radius: 25%;
-   text-align: center;*/
-   /*padding-top: 4px;
+   /*border-radius: 25%;
+   text-align: center;
+   padding-top: 4px;
     background: #db6f4d;
     margin-bottom: 10px;
-    margin-top: 50px;*/
-/*}
+    margin-top: 50px;
+}
 
 .header__discover {
    width: 150px;
