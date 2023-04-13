@@ -42,7 +42,7 @@
 
    }
 
-   .header-social img {
+   .header__social img {
       margin: 15px;
       min-width: 30px;
    }
@@ -51,7 +51,7 @@
       color: #ffffff;
    }
 
-   .header-social {
+   .header__social {
       display: flex;
       flex-direction: row;
       justify-content: end;
@@ -72,7 +72,7 @@
       color: #ffffff;
    }
 
-   .header-social {
+   .header__social {
       order: 3;
       width: 40px;
       display: flex;
@@ -117,7 +117,7 @@
 
    }
 
-   .header-social img {
+   .header__social img {
       margin: 15px;
       min-width: 30px;
       max-width: 30px;
