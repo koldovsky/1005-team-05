@@ -125,7 +125,13 @@
     .testimonials__cards{
         display: flex;
         flex-direction: row;
-        padding-bottom: 60px;
+        padding-bottom: 60px; 
+    }
+    .nature__title{
+
+        font-size: 52px;
+
         
+        line-height: 54px;
     }
 }
