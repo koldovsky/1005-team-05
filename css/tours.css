@@ -1,5 +1,5 @@
 .tours{
-    background-color: #000;
+    background-image: url(../img/testimonials_background_img.png);
 }
 
 .camping-tours {
@@ -9,3 +9,8 @@
 .tours__link{
     text-align: center;
 }
+
+.tours-card img{
+    display: grid;
+}
+
