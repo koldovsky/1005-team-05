@@ -1,6 +1,10 @@
+.tours{
+    background-color: var(--title color);
+}
+
 .camping-tours {
     text-align: center;
     }
-.tours-card{
-    background-color: var(--title color);
+.tours__button{
+    text-align: center;
 }
