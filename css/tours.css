@@ -1,5 +1,5 @@
 .tours{
-    background-image: url(../img/testimonials_background_img.png);
+    background-image: url(../img/tours-fon.png);
 }
 
 .camping-tours {
@@ -12,5 +12,6 @@
 
 .tours-card img{
     display: grid;
+    grid-template-columns: repeat(1, 1rf);
 }
 
