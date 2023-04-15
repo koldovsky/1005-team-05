@@ -1,26 +1,94 @@
-/* 
-.faq__header {
-  text-align: center;
-}
-
-.faq__questions {
-  display: grid; 
-  grid-template-columns: repeat(3, 1fr); 
-  grid-template-rows: repeat(2, 1fr); 
-  gap: 50px; 
-  position: relative;
-}
-
-@media screen and (max-width: 1024px) { 
+.faq {
+    padding: 10px 32px 40px 32px;
+  }
+  
+  .faq__header {
+    text-align: center;
+  }
+  
+  .faq__header-text {
+    margin-top: 25px;
+    margin-bottom:  0;
+  }
+  
   .faq__questions {
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(3, 1fr); 
-}
-
-@media screen and (max-width: 768px) { 
-  .faq__questions {
-    grid-template-columns: 1fr; 
-    grid-template-rows: repeat(6, 1fr); 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+  }
+  
+  .faq__included {
+    padding: 0 15px;
+  }
+  
+  .faq__included-text {
+    margin-top: 20px;
+  }
+  
+  .faq__kids {
+    padding: 0 15px;
+  }
+  
+  .faq__kids-text {
+    margin-top: 20px;
+  }
+  
+  .faq__payment {
+    padding: 0 15px;
+  }
+  
+  .faq__payment-text {
+    margin-top: 20px;
+  }
+  
+  .faq__insurance {
+    padding: 0 15px;
+    margin-top: 30px;
+  }
+  
+  .faq__insurance-text {
+    margin-top: 20px;
+  }
+  
+  .faq__guides {
+    padding: 0 15px;
+    margin-top: 30px;
+  }
+  
+  .faq__guides-text {
+    margin-top: 20px;
+  }
+  
+  .faq__cancel {
+    padding: 0 15px;
+    margin-top: 30px;
+  }
+  
+  .faq__cancel-text {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .faq__questions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    }
+    
+    .faq__payment {
+      margin-top: 30px;
   }
 }
-*/
+  
+  @media (max-width: 768px) {
+    .faq__questions {
+    display: block;
+    margin-top: 50px;
+    }
+    .faq {
+      margin: 0px;
+    }
+    .faq__kids, .faq__payment, .faq__insurance, .faq__guides, .faq__cancel {
+      margin-top: 50px;
+    } 
+  }
