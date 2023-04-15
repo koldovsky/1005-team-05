@@ -1,4 +1,11 @@
+.tours{
+    background-color: #000;
+}
+
 .camping-tours {
     text-align: center;
-    font-family: 'Passion One';
+    color: #fff;
     }
+.tours__link{
+    text-align: center;
+}
