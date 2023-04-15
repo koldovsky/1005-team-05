@@ -8,11 +8,12 @@
 
 .faq__header-title {
     font-family: "Passion One", cursive;
+    margin-bottom: 25px;
 }
 .faq__header-text {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    margin-top: 25px;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
