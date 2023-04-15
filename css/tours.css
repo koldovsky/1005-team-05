@@ -1,9 +1,10 @@
 .tours{
-    background-color: var(--title color);
+    background-color: #000;
 }
 
 .camping-tours {
     text-align: center;
+    color: #fff;
     }
 .tours__link{
     text-align: center;
