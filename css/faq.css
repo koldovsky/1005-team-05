@@ -27,7 +27,12 @@
     padding: 0 15px;
 }
 
+.faq__included-title, .faq__kids-title, .faq__payment-title, .faq__insurance-title, .faq__guides-title, .faq__cancel-title {
+    font-family: "Passion One", cursive;
+}
+
 .faq__included-text, .faq__kids-text, .faq__payment-text, .faq__insurance-text, .faq__guides-text, .faq__cancel-text  {
+    font-family: "Montserrat", sans-serif;
     margin-top: 20px;
 }
 
