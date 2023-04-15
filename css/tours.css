@@ -1,3 +1,6 @@
 .camping-tours {
     text-align: center;
     }
+.tours-card{
+    background-color: var(--title color);
+}
