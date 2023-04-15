@@ -1,5 +1,7 @@
+
 .tours{
-    background-image: url(../img/tours-fon.png);
+    background-image: url(../img/tours-fon.png) 50.31%
+    100% / cover;
 }
 
 .camping-tours {
@@ -10,7 +12,7 @@
     text-align: center;
 }
 
-.tours-card img{
+.tours-card{
     display: grid;
     grid-template-columns: repeat(1, 1rf);
 }
