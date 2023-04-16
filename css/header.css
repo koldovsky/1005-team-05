@@ -1,3 +1,7 @@
+.navbar-toggler {
+   border: none;
+}
+
 .navbar-nav header-social img {
    display: inline;
 }
@@ -87,19 +91,42 @@
 .button__book-discover {
    display: flex;
    flex-direction: column;
+   flex-wrap: wrap;
    justify-content: center;
    align-items: center;
    text-align: center;
+   gap: 20px;
+   padding: 50px;
+   vertical-align: middle;
+}
+
+.header__book-tour {
+   font-family: "Montserrat", sans-serif;
+   font-size: 15.4px;
+   padding-bottom: 40px;
 }
 
 .header__book-tour-button {
-   border: 3px solid green;
-   background: var(--main-color);
+   text-decoration: none;
+   color: var(--main-color);
+   padding: 20px 32px 20px 32px;
+   border: 1px solid var(--brand-color);
+   background-color: var(--brand-color);
+   border-radius: 32px;
+
+}
+
+.header__discover {
+   font-family: "Montserrat", sans-serif;
+   font-size: 15.4px;
 }
 
 .header__discover-button {
-   border: 3px solid green;
-   background: var(--main-color);
+   text-decoration: none;
+   color: var(--main-color);
+   padding: 20px 32px 20px 32px;
+   border: 1px solid var(--brand-color);
+   border-radius: 32px;
 }
 
 @media (min-width:354px) {
@@ -109,8 +136,20 @@
 }
 
 @media (min-width:404px) {
+   .header__book-tour {
+      padding-bottom: 40px;
+   }
+
+}
+
+@media (min-width:480px) {
    .button__book-discover {
+      display: flex;
       flex-direction: row;
+   }
+
+   .header__book-tour {
+      padding-bottom: 0;
    }
 }
 
