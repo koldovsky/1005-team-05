@@ -1,7 +1,7 @@
-.tours{
-    background-color: #000;
-}
-
+.tours {
+    background: url(../img/tours-fon.png) 50.31% 100% / cover;
+     }
+    
 .camping-tours {
     text-align: center;
     color: #fff;
@@ -9,3 +9,9 @@
 .tours__link{
     text-align: center;
 }
+
+.tours-card {
+    display: grid;
+    grid-template: 1fr 1fr;
+}
+
