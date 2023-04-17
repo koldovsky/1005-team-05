@@ -27,3 +27,17 @@ img {
   font-family: "Passion One", cursive;
   font-family: "Luckiest Guy", cursive;
 }
+
+h2 {
+  font-size: 46px;
+  font-family: "Passion One", cursive;
+  letter-spacing: 2.3px;
+  font-weight: 700;
+  font-stretch: 100%;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
