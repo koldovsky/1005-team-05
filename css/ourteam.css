@@ -1,66 +1,111 @@
+.ourteam {
+    background-color: #f3f3f2;
+    padding: 0px 24px 50px 24px;
+}
 
-h2 {
+.ourteam__photojim img,
+/*.ourteam__photoamanda img,*/
+.ourteam__photodiana img,
+.ourteam__photojohn img {
+    display: block;
+    width: 100%;
+    padding: 0% 4%;
+}
+
+.ourteam__photoamanda img {
+    display: block;
+    width: 100%;
+    padding: 0% 4%;
+}
+
+@media (min-width: 600px) {
+    .ourteam__about-us {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+.ourteam__text-block {
     text-align: center;
     font-family: "Passion One", cursive;
     font-size: 38px;
     font-weight: 700;
     font-stretch: 100%;
-}
-.ourteam__john, .ourteam__diana, .ourteam__jim, .ourteam__amanda {
-    background-color: #fff;
-    padding: 24px;
-    margin: 24px;
-    padding-top: 0px;
+    display: block;
 }
 
-.ourteam__photojohn, .ourteam__photojim, .ourteam__photojim, .ourteam__photoamanda { 
+.ourteam__john, .ourteam__diana, .ourteam__jim, .ourteam__amanda {
+    background-color: #fff;
+    
+}
+
+.ourteam__john {
+    margin: 50px 0px 0px 0px;
+}
+
+.ourteam__diana {
+    margin: 50px 0px 0px 0px;
+}
+
+.ourteam__jim {
+    margin: 50px 0px 0px 0px;
+}
+
+.ourteam__amanda {
+    margin: 50px 0px 0px 0px;
+}
+
+.ourteam__photojohn, .ourteam__photodiana, .ourteam__photojim, .ourteam__photoamanda img { 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.ourteam__photojohn  img {
+/*.ourteam__photojohn img {
+    display: block;
     width: 401px;
     height: 260px;
     max-width: 100%;
     max-height: 100%;
 }
 
-.ourteam__photodiana  img {
+
+
+.ourteam__photodiana img {
     width: 401px;
     height: 260px;
     max-width: 100%;
     max-height: 100%;
 }
 
-.ourteam__photojim  img {
+.ourteam__photojim img {
     width: 401px;
     height: 260px;
     max-width: 100%;
     max-height: 100%;
 }
 
-.ourteam__photoamanda  img {
+.ourteam__photoamanda img {
     width: 401px;
     height: 260px;
     max-width: 100%;
     max-height: 100%;
 }
-
-.ourteam {
-    background-color: #f3f3f2;
-}
-
-.ourteam_john-info {
+*/
+.ourteam__john-all-info, .ourteam__diana-all-info, .ourteam__jim-all-info, .ourteam__amanda-all-info {
     padding: 31px 17px;
 }
 
-.ourteam__johnname {
+.ourteam__john-info, .ourteam__diana-info, .ourteam__jim-info, .ourteam__amanda-info {
+    padding: 0px 17px;
+}    
+
+.ourteam__johnname, .ourteam__diananame, .ourteam__jimname, .ourteam__amandaname {
     font-size: 22px;
     font-family: "Passion One", cursive;
 }
 
-.ourteam__johnprofession {
+.ourteam__johnprofession, .ourteam__dianaprofession, .ourteam__jimprofession, .ourteam__amandaprofession {
     font-size: 12px;
     color: rgb(158, 178, 15);
     font-family: "Montserrat", sans-serif;
@@ -68,16 +113,18 @@ h2 {
     padding: 20px 0px;
 }
 
-.ourteam__johndescription {
+.ourteam__johndescription, .ourteam__dianadescription, .ourteam__jimdescription, .ourteam__amandadescription {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     line-height: 27.2px;
     vertical-align: baseline;
-    font-feature-settings: ;normal;
-    padd
 }
 
-.ourteam__johnsocialmedias {
+.ourteam__johnsocialmedias, .ourteam__dianasocialmedias, .ourteam__jimsocialmedias, .ourteam__amandasocialmedias {
+    display: flex;
+    gap: 15px;
     margin: 30px 0px 0px;
+
 }
+
