@@ -2,8 +2,10 @@
   border: none;
 }
 
-.navbar-nav header-social img {
-  display: inline;
+.header-social {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 5px;
 }
 
 .nav-link {
@@ -36,7 +38,7 @@
 
 .header__american-campers-logo {
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .header__american-campers-logo img {
@@ -128,10 +130,6 @@
 }
 
 @media (min-width: 354px) {
-  .header__under-nav {
-    margin-top: 100px;
-  }
-
   .header__under-nav {
 
     margin-top: 240px;
