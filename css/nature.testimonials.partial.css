@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .nature{
 
     padding-top: 180px;
@@ -16,18 +15,8 @@
    min-width: 206px;
    padding-bottom: 24px;
    margin: 24px;
-=======
-.nature {
-  padding-top: 180px;
-  background: url("../img/nuture_background_img.png");
-  min-width: 100vh;
-  min-height: 72vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+   text-align: center;
 }
->>>>>>> 7ee99dd7d957681edbec67942e900bb4ed9ef2d7
-
 .nature__banner {
   max-height: 280px;
   min-width: 206px;
@@ -66,16 +55,17 @@
   flex-direction: column;
   background: url("../img/testimonials_background_img.png");
   min-height: auto;
+  
 }
 
 .testimonials__title {
-  color: var(--main-color);
-  font-weight: 700;
-  font-size: 38px;
-  font-family: "Passion One", cursive;
-  padding-top: 80px;
-
-  line-height: 43px;
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 38px;
+    font-family: "Passion One", cursive;
+    padding-top: 80px;
+    text-align: center;
+    line-height: 43px;
 }
 
 .testimonials__cards {
@@ -95,23 +85,24 @@
   flex-direction: column;
 }
 .card_foto {
-  width: 100px;
-  height: 100px;
-  padding: 20px 0px 20px 0px;
+  width: 90px;
+  height: 90px;
+
 }
 .new_color {
   background-color: var(--dark-accent-color);
 }
 
 .card_foto__item {
-  width: 100px;
-  height: 100px;
-  border-radius: 45%;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding-bottom: 10px;
 }
 
 .card_items_text {
   width: 210px;
-  height: 330xp;
+  height: 310xp;
   text-align: center;
   font-size: 16px;
   font-family: "Montserrat", "sans-serif";
@@ -121,14 +112,14 @@
 }
 
 .card_name {
-  padding: 40px;
   font-size: 22px;
   color: var(--main-color);
+  padding-bottom: 40px;
 }
 .card_data {
   font-size: 12px;
   color: var(--title-color);
-  padding-top: 20px;
+ 
 }
 
 @media (min-width: 1049px) {
