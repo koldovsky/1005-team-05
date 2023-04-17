@@ -28,4 +28,21 @@ img {
   font-family: "Montserrat", sans-serif;
   font-family: "Passion One", cursive;
   font-family: "Luckiest Guy", cursive;
+<<<<<<< HEAD
+=======
+}
+
+h2 {
+  font-size: 46px;
+  font-family: "Passion One", cursive;
+  letter-spacing: 2.3px;
+  font-weight: 700;
+  font-stretch: 100%;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+>>>>>>> a84cb43d177eb961092a2bcf4510c29b9225c9a8
 }
