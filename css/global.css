@@ -7,9 +7,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
 }
+
 /*
 img {
   display: block;
@@ -26,6 +28,8 @@ img {
   font-family: "Montserrat", sans-serif;
   font-family: "Passion One", cursive;
   font-family: "Luckiest Guy", cursive;
+<<<<<<< HEAD
+=======
 }
 
 h2 {
@@ -40,4 +44,5 @@ p {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+>>>>>>> a84cb43d177eb961092a2bcf4510c29b9225c9a8
 }
