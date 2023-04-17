@@ -20,7 +20,8 @@
 }
 
 .philosophy__intro {
-  height: 100px;
+  min-width: 360px;
+  min-height: 100px;
   text-align: center;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
@@ -28,7 +29,8 @@
 }
 
 .philosophy__text {
-  height: 100px;
+  min-width: 360px;
+  min-height: 100px;
   text-align: center;
   font-family: sans-serif;
   font-family: "Montserrat", sans-serif;
