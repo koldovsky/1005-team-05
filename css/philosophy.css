@@ -44,11 +44,12 @@
 }
 
 .philosophy__links h3 {
-  display: inline-block;
+  text-align: center;
+
 }
 
 #philosophy a{
-    text-decoration: none;
-    text-align: center;
-    width: 49%;
+  text-decoration: none;
+  text-align: center;
+  width: 49%;
 }
