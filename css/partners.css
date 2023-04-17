@@ -57,6 +57,9 @@
   margin-top: 50px;
 }
 .partners__cards-img {
+  display: block;
+  width: 100%;
+  margin: auto;
   width: 327px;
   object-position: 50% 50%;
   max-width: 100%;
