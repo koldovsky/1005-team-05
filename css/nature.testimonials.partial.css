@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .nature{
 
     padding-top: 180px;
@@ -15,123 +16,130 @@
    min-width: 206px;
    padding-bottom: 24px;
    margin: 24px;
+=======
+.nature {
+  padding-top: 180px;
+  background: url("../img/nuture_background_img.png");
+  min-width: 100vh;
+  min-height: 72vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+>>>>>>> 7ee99dd7d957681edbec67942e900bb4ed9ef2d7
 
-    }
-.nature__title{
-    color: var(--main-color);
-    font-weight: 700;
-    font-size: 38px;
-    font-family:"Passion One", cursive;
-    padding-bottom: 24px;
-    
-    line-height: 54px;
-    }   
-.nature__text_items{
-    padding-bottom: 24px;
-    
-    }
-.nature__text{
-    color: var(--main-color);
-    font-weight: 600;
-    font-size: 19px;
-    font-family:"Montserrat", "sans-serif";
-    text-align: center;
-    line-height: 34px;
-    hyphens: auto;
-    }
+.nature__banner {
+  max-height: 280px;
+  min-width: 206px;
+  padding-bottom: 24px;
+  margin: 24px;
+}
+.nature__title {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 38px;
+  font-family: "Passion One", cursive;
+  padding-bottom: 24px;
 
-.nature__link{
-    padding-bottom: 100px;
-    }
+  line-height: 54px;
+}
+.nature__text_items {
+  padding-bottom: 24px;
+}
+.nature__text {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 19px;
+  font-family: "Montserrat", "sans-serif";
+  text-align: center;
+  line-height: 34px;
+  hyphens: auto;
+}
+
+.nature__link {
+  padding-bottom: 100px;
+}
 
 /*=============testimonials==========*/
-.testimonials{
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  background: url("../img/testimonials_background_img.png");
+  min-height: auto;
+}
 
+.testimonials__title {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 38px;
+  font-family: "Passion One", cursive;
+  padding-top: 80px;
+
+  line-height: 43px;
+}
+
+.testimonials__cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials__cards_items {
+  display: flex;
+  width: 276px;
+  height: 580px;
+  padding: 60px 0px 60px 0px;
+  margin: 40px 20px 40px 20px;
+  background-color: var(--brand-color);
+  align-items: center;
+  flex-direction: column;
+}
+.card_foto {
+  width: 100px;
+  height: 100px;
+  padding: 20px 0px 20px 0px;
+}
+.new_color {
+  background-color: var(--dark-accent-color);
+}
+
+.card_foto__item {
+  width: 100px;
+  height: 100px;
+  border-radius: 45%;
+}
+
+.card_items_text {
+  width: 210px;
+  height: 330xp;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 400;
+  padding-bottom: 20px;
+  color: var(--main-color);
+}
+
+.card_name {
+  padding: 40px;
+  font-size: 22px;
+  color: var(--main-color);
+}
+.card_data {
+  font-size: 12px;
+  color: var(--title-color);
+  padding-top: 20px;
+}
+
+@media (min-width: 1049px) {
+  .testimonials__cards {
     display: flex;
-    flex-direction: column;
-    background: url("../img/testimonials_background_img.png");
-    min-height:auto;
-    }
+    flex-direction: row;
+    padding-bottom: 60px;
+  }
+  .nature__title {
+    font-size: 52px;
 
-
-.testimonials__title{
-    color: var(--main-color);
-    font-weight: 700;
-    font-size: 38px;
-    font-family:"Passion One", cursive;
-    padding-top: 80px;
-    
-    line-height: 43px;
-}
-
-.testimonials__cards{
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-
-}
-.testimonials__cards_items{
-    display: flex;
-    width: 276px;
-    height: 580px;
-    padding: 60px 0px 60px 0px;
-    margin: 40px 20px 40px 20px;
-    background-color: var(--brand-color);
-    align-items: center;
-    flex-direction: column;
-  
-}
-.card_foto{
-    width: 100px;
-    height: 100px;
-    padding: 20px 0px 20px 0px;
-}
-.new_color{
-    background-color: var(--dark-accent-color);
-}
-
-.card_foto__item{
-    width: 100px;
-    height: 100px;
-    border-radius: 45%;
-    
-}
-
-.card_items_text{
-    width: 210px;
-    height: 330xp;
-    text-align: center;
-    font-size: 16px;
-    font-family:"Montserrat", "sans-serif";
-    font-weight: 400;
-    padding-bottom: 20px;
-    color: var(--main-color);
- 
-}
-
-.card_name{
-    padding: 40px ;
-    font-size: 22px;
-    color: var(--main-color);
-}
-.card_data{
-    font-size: 12px;
-    color: var(--title-color);
-    padding-top: 20px;
-}
-
-@media (min-width:1049px) {
-    .testimonials__cards{
-        display: flex;
-        flex-direction: row;
-        padding-bottom: 60px; 
-    }
-    .nature__title{
-
-        font-size: 52px;
-
-        
-        line-height: 54px;
-    }
+    line-height: 54px;
+  }
 }
