@@ -25,7 +25,7 @@
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  justify-self: end;
+  justify-content:space-around;
 }
 
 .philosophy__text {
