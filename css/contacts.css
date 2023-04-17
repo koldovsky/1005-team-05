@@ -1,5 +1,7 @@
 .contacts {
     background: url("../img/background-contacts.webp") 50.31% 100% / cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
     filter: saturate(140%);
     background-repeat: no-repeat;
     max-width: 100vw;
@@ -7,9 +9,18 @@
     width: 100vw;
     height: 100vh;
     color: var(--main-color);
-  }
-
+}
 
 address {
     font-style: normal;
+}
+
+.contacts h2 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.contacts__divider img{
+    display: block;
+    max-width: 100%;
 }
