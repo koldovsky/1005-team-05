@@ -16,7 +16,6 @@
   margin-bottom: 30px;
   letter-spacing: 1.9px;
   line-height: 54px;
-
 }
 
 .philosophy__intro {
@@ -26,6 +25,7 @@
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  justify-self: auto;
 }
 
 .philosophy__text {
