@@ -1,26 +1,97 @@
-/* 
+.faq__container {
+  padding: 10px 32px 40px 32px;
+}
+
 .faq__header {
   text-align: center;
 }
 
+.faq__header-title {
+  font-family: "Passion One", cursive;
+  margin-bottom: 25px;
+}
+.faq__header-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .faq__questions {
-  display: grid; 
-  grid-template-columns: repeat(3, 1fr); 
-  grid-template-rows: repeat(2, 1fr); 
-  gap: 50px; 
-  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
 }
 
-@media screen and (max-width: 1024px) { 
-  .faq__questions {
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(3, 1fr); 
+.faq__included,
+.faq__kids,
+.faq__payment {
+  padding: 0 15px;
 }
 
-@media screen and (max-width: 768px) { 
+.faq__included-title,
+.faq__kids-title,
+.faq__payment-title,
+.faq__insurance-title,
+.faq__guides-title,
+.faq__cancel-title {
+  font-family: "Passion One", cursive;
+}
+
+.faq__included-text,
+.faq__kids-text,
+.faq__payment-text,
+.faq__insurance-text,
+.faq__guides-text,
+.faq__cancel-text {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+}
+
+.faq__insurance,
+.faq__guides,
+.faq__cancel {
+  padding: 0 15px;
+  margin-top: 30px;
+}
+
+.test-faq-bg img {
+  display: block;
+  max-width: 100%;
+}
+
+.faq-partners-bg img {
+  display: block;
+  max-width: 100%;
+}
+
+@media (max-width: 991px) {
   .faq__questions {
-    grid-template-columns: 1fr; 
-    grid-template-rows: repeat(6, 1fr); 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+  }
+
+  .faq__payment {
+    margin-top: 30px;
   }
 }
-*/
+
+@media (max-width: 768px) {
+  .faq__questions {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .faq {
+    margin: 0px;
+  }
+
+  .faq__kids,
+  .faq__payment,
+  .faq__insurance,
+  .faq__guides,
+  .faq__cancel {
+    margin-top: 50px;
+  }
+}
