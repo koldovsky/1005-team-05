@@ -47,7 +47,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 240px;
 }
 
 .text__experience {
@@ -59,17 +59,12 @@
 
 .header__main-text {
   flex-direction: column;
-  font-size: 100px;
-  letter-spacing: 10px;
+  font-size: 60px;
+  letter-spacing: 6px;
   text-align: center;
   margin: auto 40px;
   font-family: "Luckiest Guy", cursive;
   font-weight: 400;
-
-  .header__discover-button {
-    border: 3px solid green;
-    background: #ffffff;
-  }
 }
 
 .header__center-line {
@@ -136,6 +131,11 @@
   .header__under-nav {
     margin-top: 100px;
   }
+
+  .header__under-nav {
+
+    margin-top: 240px;
+  }
 }
 
 @media (min-width: 404px) {
@@ -157,21 +157,23 @@
 
 @media (min-width: 768px) {
   .text__experience {
-    font-size: 2rem;
+    font-size: 23px;
   }
 
   .header__main-text {
-    font-size: 4rem;
+    font-size: 80px;
   }
+
 }
 
 @media (min-width: 991px) {
   .text__experience {
-    font-size: 2.5rem;
+    font-size: 25px;
   }
 
   .header__main-text {
-    font-size: 5rem;
+    font-size: 100px;
+    letter-spacing: 10px;
   }
 
   .header__menu {
@@ -193,12 +195,12 @@
     margin: 5px;
   }
 
-  .header-social > img {
+  .header-social>img {
     margin: 15px;
     min-width: 30px;
   }
 
-  .nav__menu-item > a {
+  .nav__menu-item>a {
     color: #ffffff;
   }
 
@@ -208,12 +210,12 @@
     justify-content: end;
   }
 
-  .nav__menu-item > a {
+  .nav__menu-item>a {
     color: var(--main-color);
   }
 
   .header__under-nav {
-    margin-top: 180px;
+    margin-top: 240px;
   }
 }
 
