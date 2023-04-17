@@ -5,25 +5,18 @@
 }
 
 .philosophy__heading {
-    text-align: center;
-    font-size: 46px;
-    font-family: 'Passion One', cursive;
-    letter-spacing: 2.3px;
-    line-height: 38px;
-    font-weight: 700;
-    font-stretch: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    letter-spacing: 1.9px;
-    line-height: 43px;
   text-align: center;
   font-size: 46px;
-  font-family: "Passion One", cursive;
+  font-family: 'Passion One', cursive;
   letter-spacing: 2.3px;
-  line-height: 52px;
+  line-height: 38px;
   font-weight: 700;
   font-stretch: 100%;
-  height: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  letter-spacing: 1.9px;
+  line-height: 43px;
+
 }
 
 .philosophy__intro {
