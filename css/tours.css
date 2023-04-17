@@ -1,16 +1,15 @@
-.tours{
-    background-image: url(../img/testimonials_background_img.png);
+.tours {
+  background-image: url(../img/testimonials_background_img.png);
 }
 
 .camping-tours {
-    text-align: center;
-    color: #fff;
-    }
-.tours__link{
-    text-align: center;
+  text-align: center;
+  color: #fff;
+}
+.tours__link {
+  text-align: center;
 }
 
-.tours-card img{
-    display: grid;
+.tours-card img {
+  display: grid;
 }
-
