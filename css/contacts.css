@@ -1,15 +1,18 @@
-.contacts {
+.contacts__outer {
     background: url("../img/background-contacts.webp") 50.31% 100% / cover;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    filter: saturate(140%);
     background-repeat: no-repeat;
-    max-width: 100vw;
-    max-height: 100vh;
-    width: 100vw;
-    height: 100vh;
     color: var(--main-color);
 }
+
+.contacts__inner {
+    padding-top: 115px;
+    padding-bottom: 95px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: -15px;
+    margin-right: -15px
+}
+
 
 address {
     font-style: normal;
@@ -17,10 +20,16 @@ address {
 
 .contacts h2 {
     font-size: 38px;
-    text-align: center;
+    text-align: left;
 }
 
 .contacts__divider img{
     display: block;
     max-width: 100%;
+    min-height: 32px;
+    line-height: 27.2px;
+}
+
+.contacts__divider{
+    margin-top: 25 px;
 }
