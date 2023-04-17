@@ -3,7 +3,7 @@
     padding-top: 180px;
     background: url("../img/nuture_background_img.png");
     background-size: cover;
-    min-width: 100vh;
+    min-width: 100%;
     min-height: 73vh;
     display: flex;
     flex-direction: column;
@@ -18,28 +18,24 @@
    margin: 24px;
    text-align: center;
 }
-.nature__banner {
-  max-height: 280px;
-  min-width: 206px;
-  padding-bottom: 24px;
-  margin: 24px;
-}
+
 .nature__title {
   color: var(--main-color);
   font-weight: 700;
   font-size: 38px;
   font-family: "Passion One", cursive;
   padding-bottom: 24px;
-
   line-height: 54px;
 }
 .nature__text_items {
   padding-bottom: 24px;
+  width: 100%;
+
 }
 .nature__text {
   color: var(--main-color);
   font-weight: 600;
-  font-size: 19px;
+  font-size: 29px;
   font-family: "Montserrat", "sans-serif";
   text-align: center;
   line-height: 34px;
@@ -62,7 +58,7 @@
 .testimonials__title {
     color: var(--main-color);
     font-weight: 700;
-    font-size: 38px;
+    font-size: 55px;
     font-family: "Passion One", cursive;
     padding-top: 80px;
     text-align: center;
@@ -77,17 +73,16 @@
 }
 .testimonials__cards_items {
   display: flex;
-  width: 276px;
-  height: 580px;
-  padding: 60px 0px 60px 0px;
+  max-width: 310px;
+  min-height: 615px;
   margin: 40px 20px 40px 20px;
   background-color: var(--brand-color);
   align-items: center;
   flex-direction: column;
 }
 .card_foto {
-  width: 90px;
-  height: 90px;
+  max-width: 120px;
+  max-height: 120px;
 
 }
 .new_color {
@@ -95,16 +90,18 @@
 }
 
 .card_foto__item {
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height:120px;
   border-radius: 50%;
   padding-bottom: 10px;
   object-fit: cover;
+  padding-bottom: 20px;
 }
 
 .card_items_text {
-  width: 210px;
-  height: 310xp;
+  padding: 60px 20px 20px 20px;
+  min-width: 250px;
+  min-height: 310xp;
   text-align: center;
   font-size: 16px;
   font-family: "Montserrat", "sans-serif";
@@ -119,23 +116,27 @@
   padding-bottom: 40px;
 }
 .card_data {
-  font-size: 12px;
+  padding: 20px;
+  font-size: 16px;
   color: var(--title-color);
  
 }
 
-@media (min-width: 991px) {
+@media (min-width:891px){
   .testimonials__cards {
     display: flex;
     flex-direction: row;
     padding-bottom: 60px;
   }
   .nature__title {
-    font-size: 52px;
-
+    font-size: 55px;
     line-height: 54px;
   }
+  .testimonials__banner{
+    font-size: 55px;  
+  }
   .nature__text{
-    font-size: 15px;
-    }
+    font-size: 19px;
+   
+  }
 }
