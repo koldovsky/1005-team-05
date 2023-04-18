@@ -9,11 +9,12 @@
 .tours__link {
   text-align: center;
 } 
-  .tours-card {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 5px;
-  }
+.tours-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
 .button{
   background-color: var(--dark-accent-color);
   border: 1px solid var(--dark-accent-color);
