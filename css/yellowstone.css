@@ -1,1 +1,5 @@
-@import "itinerary.css";
+@import url(global.css);
+@import url(controls.css);
+@import url(header.css);
+@import url(itinerary.css);
+@import url(footer.css);
