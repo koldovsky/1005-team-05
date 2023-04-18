@@ -1,4 +1,4 @@
-#philosophy {
+.philosophy {
   background-image: url("../img/bg-philosophy.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -50,7 +50,7 @@
   margin-top: 30px;
 }
 
-#philosophy a{
+.philosophy a{
   text-decoration: none;
   text-align: center;
   width: 49%;
