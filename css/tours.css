@@ -14,3 +14,18 @@
   display: grid;
   grid-template: 1fr 1fr;
 }
+.button{
+  background-color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+  border-radius: 32px;
+  color: var(--main-color);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px 32px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
