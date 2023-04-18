@@ -2,106 +2,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Passion+One&display=swap');
 
 :root {
-  scroll-behavior: smooth ;
+  --main-color: #1C1C1B
+  --block-color: #FFFFFF;
 }
-
-.greenlight {
-  color: #99B20F;
-}
-
-/* Itinerary Section */
-.section__itinerary {
-  background-color: #f7f7f7;
-  background-image: url('//img/bg-philosophy.png');
-  background-repeat: repeat-x;
-  background-size: cover;
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-
-.container__itinerary {
-  font-family: 'Passion One';
-  text-align: center;
-  flex-basis: 90%;
-  margin: 0;
-  font-size: 38px;
-  line-height: 3.5;
-}
-
-
 .itinerary {
-  padding: 10%;
-}
-
-.itinerary__upper-border, .itinerary__low-border {
-  width: 100%;
-  position: absolute;
-  left: 0;
-  z-index: -1;
-}
-
-.itinerary__upper-border {
-  top: 0;
-}
-
-.itinerary__low-border {
-  bottom: 0;
-  transform: rotate(180deg);
-}
-
-.itinerary__days {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.itinerary__day-title {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.itinerary__days li {
-  background-color: #FFFFFF;
-}
-.greenlight {
-  color: #93C548;
-}
-
-.itinerary__day-description {
+  padding-top: 5px;
+  background: url("https://res2.weblium.site/res/5dc02e35769ac4002109a58b/5dc17a6731a15200214b3304.webp");
+  background-size: cover;
+  min-width: 100%;
+  min-height: 73vh;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 30px 0;
+  flex-direction: column;
+  align-items: center;
+}
+.itinerary__container {
+  max-width: 1100px;
+}
+.itinerary__title {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 55px;
+  font-family: "Passion One", cursive;
+  padding-top: 40px;
+  text-align: center;
+  line-height: 43px;
+}
+.itinerary__list {
+  list-style: none;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-.itinerary__image {
-  flex-basis: 40%;
-  margin-right: 30px;
+.itinerary__list-item {
+  display: flex;
+  flex-direction: column;
 }
 
-.itinerary__image-img {
-  width: 100%;
+.itinerary__item {
+  max-width: 1200px;
+  max-height: 400px;
+  margin: 30px 0px 0px 0px;
+  align-items: center;
+  flex-direction: column;
+  background-color: white
 }
 
-.itinerary__day-description p {
-  flex-basis: 55%;
-  margin: 0;
+.itinerary__list-image img {
+  max-width: 400px;
+  display: block;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+}
+
+.itinerary__item-description {
+  max-width: 640px;
+}
+.itinerary__item-title {
+  font-family: 'Passion One', cursive;
+  font-size: 25px;
+  text-align: center;
+}
+.itinerary__item-description {
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  color: #1C1C1BBA;
+  padding: auto;
+  margin: auto;
 }
 
-@media (max-width: 768px) {
-  .itinerary__day-description {
-    flex-direction: column;
-  }
+.itinerary__item-title-green {
+  color: #99B20F
+}
 
-  .itinerary__image {
-    flex-basis: 100%;
-    margin: 0 0 30px;
-  }
+.itinerary__footer {
+  background-image: url('/img/testim-faq-background.png');
+}
 
-  .itinerary__day-description p {
-    flex-basis: 100%;
+@media (min-width: 500px) {
+  .itinerary__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
+  
+}
+
+.container {
+  max-width: 1200;
+  margin: auto;
 }
