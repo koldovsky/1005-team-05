@@ -45,6 +45,15 @@
 .nature__link {
   padding-bottom: 100px;
 }
+.nature__button{
+  background-color: var(--brand-color);
+  min-width: 158px;
+}
+.nature__button:hover{
+  background-color: var(--main-color);
+  color: var(--title-color);
+  transition: 1s;
+}
 
 /*=============testimonials==========*/
 .testimonials {
