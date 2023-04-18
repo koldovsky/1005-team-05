@@ -1,5 +1,6 @@
 .contacts__outer {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     background: url("../img/background-contacts.webp") 50.31% 100% / cover;
     background-repeat: no-repeat;
     background-color: var(--title-color);
@@ -13,11 +14,24 @@
     margin-left: -15px;
     margin-right: -15px;
     color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
 }
+
+@media (min-width: 768px) { /* Adjust this breakpoint value as needed */
+    .contacts__inner {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
 
 .contacts__contacts-wrapper {
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
 }
 
 .contacts__contacts-grid {
@@ -85,10 +99,13 @@
     margin-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
 }
 
 .contacts__form-inner-wrapper{
-    padding: 39px;
+    padding: 46px;
     background: #ffffff;
 }
 
@@ -106,9 +123,12 @@
     margin-bottom: 24px;
     display: block;
     width: 100%;
+    line-height: 27.2px;
 }
 
-.contacts__form-field input {
+.contacts__form-field input,
+.contacts__form-field textarea,
+.contacts__form-field select {
     margin-top: 12px;
     padding: 16px, 24px;
     border-color:#fbb01f;
@@ -118,11 +138,35 @@
     font-weight: 400;
     display: block;
     cursor: text;
+    width: 100%;
+    line-height: 16.8px;
+    height: 49px;
+    border-width: 0px;
 }
 
+.contacts__form-field:nth-child(4),
+.contacts__form-field textarea {
+    height: 150px;
+}
 
-.contacts__form-field input,
-.contacts__form-field textarea,
-.contacts__form-field select {
-  width: 100%;
+.contacts__form-field:nth-child(5) {
+    margin: 0;
+}
+
+.contacts__form-field select{
+    padding: 1px, 2px;
+}
+
+.contacts__form-button {
+    margin-top: 56px;
+    padding: 16px, 24px;
+    background-color: rgb(251, 176, 31);
+    border-radius: 34px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    height: 46px;
+    border-width: 0px;
+    color: rgb(255, 255, 255)
 }
