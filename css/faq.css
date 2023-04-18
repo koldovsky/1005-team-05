@@ -1,5 +1,5 @@
 .faq__container {
-  padding: 10px 32px 40px 32px;
+  padding: 0 32px ;
 }
 
 .faq__header {
@@ -57,12 +57,12 @@
 
 .test-faq-bg img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 .faq-partners-bg img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 @media (max-width: 991px) {
