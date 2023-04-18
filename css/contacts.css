@@ -1,3 +1,64 @@
+.contacts__outer {
+    display: block;
+    background: url("../img/background-contacts.webp") 50.31% 100% / cover;
+    background-repeat: no-repeat;
+    color: var(--main-color);
+}
+
+.contacts__inner {
+    display: block;
+    padding-top: 115px;
+    padding-bottom: 95px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.contacts__contacts-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contacts__contacts-grid {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.contacts__contacts-grid h2 {
+    font-size: 38px;
+    font-style: normal;
+    text-align: left;
+    display: block;
+}
+
+.contacts__divider {
+    margin-top: 25 px;
+    display: block;
+    max-width: 100%;
+    min-height: 32px;
+}
+
+.contacts__contacts-grid p {
+    margin-top: 20px;
+    margin-block-start: 20px;
+    font-size: 19px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    display: block;
+    text-align: left;
+}
+
 address {
     font-style: normal;
 }
+
+.contacts__divider img{
+    display: block;
+    max-width: 100%;
+    min-height: 32px;
+    line-height: 27.2px;
+}
+
