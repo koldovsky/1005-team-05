@@ -175,6 +175,7 @@
 
   .header__main-text {
     font-size: 80px;
+    letter-spacing: 8px;
   }
 
 }
