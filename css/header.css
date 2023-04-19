@@ -26,11 +26,11 @@
 }
 
 .header {
-  background: url("../img/background-header-picture.png") 50.31% 100% / cover;
+  background: url("../img/background-header-picture_optimized_3840.png") 50.31% 100% / cover;
   filter: saturate(140%);
   background-repeat: no-repeat;
   max-width: 99vw;
-  max-height: 99vh;
+  /* max-height: 99vh;*/
   width: 100vw;
   height: 100vh;
   color: var(--main-color);
@@ -148,7 +148,7 @@
 
 @media (min-width: 354px) {
   .header__under-nav {
-    margin-top: 140px;
+    margin-top: 200px;
   }
 }
 
@@ -228,13 +228,13 @@
   }
 
   .header__under-nav {
-    margin-top: 140px;
+    margin-top: 200px;
   }
 }
 
 @media (min-width: 1024px) {
   .header__under-nav {
-    margin-top: 100px;
+    margin-top: 200px;
   }
 }
 
@@ -262,7 +262,7 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 140px;
+  /* font-size: 140px;*/
 }
 
 @keyframes textclip {
