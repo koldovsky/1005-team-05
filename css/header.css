@@ -137,11 +137,10 @@
 
 .header__discover-button {
   text-decoration: none;
-  color: var(--brand-color);
+  color: var(--main-color);
   padding: 20px 32px 20px 32px;
   border: 1px solid var(--brand-color);
   border-radius: 32px;
-  background-color: var(--main-color);
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
 }
@@ -263,7 +262,6 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  /* font-size: 140px;*/
 }
 
 @keyframes textclip {
