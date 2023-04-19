@@ -16,7 +16,10 @@
     gap: 5px;
   }
 }
-
+.tours-card img{
+  width: 70%;
+  margin: auto;
+}
 .button{
   background-color: var(--dark-accent-color);
   border: 1px solid var(--dark-accent-color);
