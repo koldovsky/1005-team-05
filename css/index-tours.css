@@ -9,6 +9,11 @@
 .tours__link {
   text-align: center;
 } 
+.tours-card{
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
 @media(min-width:600px){
   .tours-card{
     display: grid;
@@ -16,10 +21,7 @@
     gap: 5px;
   }
 }
-.tours-card img{
-  width: 70%;
-  margin: auto;
-}
+
 .button{
   background-color: var(--dark-accent-color);
   border: 1px solid var(--dark-accent-color);
