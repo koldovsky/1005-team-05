@@ -1,21 +1,18 @@
-#philosophy {
-  background-image: url("/img/bg-philosophy.png");
+.philosophy {
+  background-image: url("../img/bg-philosophy.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-.philosophy__heading {
+.philosophy__heading h2 {
   text-align: center;
   font-size: 46px;
-  font-family: 'Passion One', cursive;
+  font-family: "Passion One", cursive;
   letter-spacing: 2.3px;
-  line-height: 38px;
   font-weight: 700;
   font-stretch: 100%;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 30px;
-  letter-spacing: 1.9px;
-  line-height: 54px;
 }
 
 .philosophy__intro {
@@ -25,6 +22,8 @@
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .philosophy__text {
@@ -33,13 +32,13 @@
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .philosophy__links {
   height: 250px;
   text-align: bottom;
-  font-family: sans-serif;
-  font-weight: bolder;
   position: left;
 }
 
@@ -51,7 +50,7 @@
   margin-top: 30px;
 }
 
-#philosophy a{
+.philosophy a{
   text-decoration: none;
   text-align: center;
   width: 49%;

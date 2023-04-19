@@ -1,0 +1,41 @@
+.tours {
+  background: url(../img/tours-fon.png) 50.31% 100% / cover;
+}
+
+.camping-tours {
+  text-align: center;
+  color: #fff;
+}
+.tours__link {
+  text-align: center;
+} 
+.tours-card{
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+@media(min-width:600px){
+  .tours-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+}
+
+.button{
+  background-color: var(--dark-accent-color);
+  border: 1px solid var(--dark-accent-color);
+  border-radius: 32px;
+  color: var(--main-color);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px 32px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+

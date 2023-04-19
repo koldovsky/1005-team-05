@@ -7,15 +7,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
 }
-/*
-img {
-  display: block;
-  width: 100%;
-}
-*/
+
 :root {
   --main-color: #fff;
   --title-color: #1c1c1b;
@@ -24,6 +20,23 @@ img {
   --dark-accent-color: #99b20f;
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 38px;
   font-family: "Passion One", cursive;
-  font-family: "Luckiest Guy", cursive;
+  letter-spacing: 2.3px;
+  font-weight: 700;
+  font-stretch: 100%;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
 }
