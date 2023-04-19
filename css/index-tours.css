@@ -2,15 +2,23 @@
   background: url(../img/tours-fon.png) 50.31% 100% / cover;
 }
 
-.camping-tours {
+.camping__tours {
   text-align: center;
   color: #fff;
 }
+
 .tours__link {
   text-align: center;
 } 
+
+.tours__card{
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+}
+
 @media(min-width:600px){
-  .tours-card{
+  .tours__card{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
@@ -33,4 +41,22 @@
   white-space: nowrap;
 }
 
+.tours__yellowstone img{
+  width: 401px;
+  height: 260px;
+}
 
+.tours__utah img{
+  width: 401;
+  height: 320;
+}
+
+.tours__montana img{
+  width: 401;
+  height: 320;
+}
+
+.tours__banff img{
+  width: 401px;
+  height: 260px;
+}
