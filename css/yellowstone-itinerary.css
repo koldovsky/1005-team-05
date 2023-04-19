@@ -42,7 +42,7 @@
 
 .itinerary__item {
   max-width: 1200px;
-  max-height: 400px;
+  max-height: 600px;
   margin: 30px 0px 0px 0px;
   align-items: center;
   flex-direction: column;
@@ -71,19 +71,20 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: #1C1C1BBA;
-  padding: auto;
+  padding: 5px 5px 5px 5px;
   margin: auto;
 }
 
 .itinerary__item-title-green {
   color: #99B20F
+
 }
 
 .itinerary__footer {
   background-image: url('/img/testim-faq-background.png');
 }
 
-@media (min-width: 500px) {
+@media (min-width: 780px) {
   .itinerary__item {
     display: flex;
     flex-direction: row;
