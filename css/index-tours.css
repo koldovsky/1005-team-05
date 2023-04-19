@@ -13,7 +13,7 @@
 
 .tours__card{
   text-align: center;
-  padding: 15px;
+  padding: 15px 15px 15px 15px;
   margin: auto;
 }
 
@@ -42,21 +42,21 @@
 }
 
 .tours__yellowstone img{
-  width: 401px;
+  width: 480px;
   height: 260px;
 }
 
 .tours__utah img{
   width: 401px;
-  height: 260px;
+  height: 360px;
 }
 
 .tours__montana img{
   width: 401px;
-  height: 260px;
+  height: 360px;
 }
 
 .tours__banff img{
-  width: 401px;
+  width: 480px;
   height: 260px;
 }
