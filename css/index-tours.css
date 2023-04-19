@@ -42,6 +42,21 @@
 }
 
 .tours__yellowstone img{
-    width: 401px;
-    height: 260px;
+  width: 401px;
+  height: 260px;
+}
+
+.tours__utah img{
+  width: 401;
+  height: 320;
+}
+
+.tours__montana img{
+  width: 401;
+  height: 320;
+}
+
+.tours__banff img{
+  width: 401px;
+  height: 260px;
 }
