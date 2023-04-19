@@ -4,6 +4,7 @@
 
 .faq__header {
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .faq__header-title {
@@ -17,44 +18,6 @@
   margin-bottom: 0;
 }
 
-.faq__questions {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 50px;
-}
-
-.faq__included,
-.faq__kids,
-.faq__payment {
-  padding: 0 15px;
-}
-
-.faq__included-title,
-.faq__kids-title,
-.faq__payment-title,
-.faq__insurance-title,
-.faq__guides-title,
-.faq__cancel-title {
-  font-family: "Passion One", cursive;
-}
-
-.faq__included-text,
-.faq__kids-text,
-.faq__payment-text,
-.faq__insurance-text,
-.faq__guides-text,
-.faq__cancel-text {
-  font-family: "Montserrat", sans-serif;
-  margin-top: 20px;
-}
-
-.faq__insurance,
-.faq__guides,
-.faq__cancel {
-  padding: 0 15px;
-  margin-top: 30px;
-}
-
 .test-faq-bg img {
   display: block;
   width: 100%;
@@ -65,33 +28,6 @@
   width: 100%;
 }
 
-@media (max-width: 991px) {
-  .faq__questions {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 50px;
-  }
-
-  .faq__payment {
-    margin-top: 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  .faq__questions {
-    display: block;
-    margin-top: 50px;
-  }
-
-  .faq {
-    margin: 0px;
-  }
-
-  .faq__kids,
-  .faq__payment,
-  .faq__insurance,
-  .faq__guides,
-  .faq__cancel {
-    margin-top: 50px;
-  }
+.faq__questions-text {
+  font-family: "Montserrat", sans-serif;
 }

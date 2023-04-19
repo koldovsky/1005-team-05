@@ -4,6 +4,7 @@
     background: url("../img/background-contacts.webp") 50.31% 100% / cover;
     background-repeat: no-repeat;
     background-color: var(--title-color);
+    border-width: 0px;
 }
 
 .contacts__inner {
