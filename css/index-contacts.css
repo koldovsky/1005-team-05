@@ -131,7 +131,7 @@
 .contacts__form-field textarea,
 .contacts__form-field select {
     margin-top: 12px;
-    padding: 16px, 24px;
+    padding: 16px 24px;
     border-color:#fbb01f;
     background-color:rgba(81, 81, 81, 0.29);
     border-radius: 34px;
@@ -160,7 +160,7 @@
 
 .contacts__form-button {
     margin-top: 56px;
-    padding: 16px, 24px;
+    padding: 16px 24px;
     background-color: rgb(251, 176, 31);
     border-radius: 34px;
     font-size: 14px;

@@ -90,7 +90,6 @@
       font-weight: 500;
       line-height: normal;
       text-decoration: none;
-      margin: 10px 5px 10px 5px;
     }
 
 .footer__menu p {
@@ -99,6 +98,7 @@
   font-weight: 400;
   text-align: center;
   color: rgb(255, 255, 255);
+  margin-bottom: 0px;
 }
 
 .footer__social-icons-container {
@@ -128,4 +128,26 @@
 
 .footer__social-icons-container ul li a {
   margin: 0px;
+}
+
+.footer__copyright-outer {
+  padding: 0px 24px 0px 24px;
+  max-width: 1200px;
+}
+
+.footer__copyright-inner {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer__copyright-inner p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.footer__copyright-inner p:nth-of-type(2) {
+  margin-top: 20px;
 }
