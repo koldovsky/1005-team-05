@@ -6,8 +6,7 @@
   min-width: 320px;
 }
 .partners__container-content {
-  padding: 0 24px 0 24px;
-  max-width: 1200px;
+  padding: 0 24px;
 }
 .partners__container-content-flex {
   display: flex;
@@ -18,8 +17,10 @@
 .partners__text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 0 15px;
-  margin: 0 -15px 0 -15px;
+  margin: 0 -15px;
 }
 .partners__title {
   color: var(--main-color);
@@ -28,6 +29,7 @@
   font-weight: 700;
   line-height: 43px;
   text-align: left;
+  justify-content: flex-start;
 }
 .partners__subtitle {
   color: var(--main-color);
@@ -45,26 +47,29 @@
   font-weight: 400;
   line-height: 27px;
   text-align: center;
+  margin-top: 20px;
 }
 .partners__cards {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: 30px -15px 0 -15px;
 }
 .partners__cards-maui,
 .partners__cards-utah,
 .partners__cards-sun {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: fl;
+  padding: 15px;
   margin-top: 50px;
 }
 .partners__cards-img {
-  margin: auto;
   width: 327px;
-  object-position: 50% 50%;
+  width: 100%;
+  margin: auto;
   max-width: 100%;
   display: block;
-  width: 100%;
 }
 @media (min-width: 480px) {
   .partners__cards-img {
@@ -72,26 +77,29 @@
   }
 }
 @media (min-width: 768px) {
+  .partners__container-content {
+    padding: 0 32px;
+  }
   .partners__cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
+  .partners__cards-text {
+    font-size: 23px;
+    line-height: 28px;
+  }
   .partners__cards-maui {
     flex-grow: 2;
+    margin-top: 0;
   }
-  .partners__cards-utah-img {
-    padding-right: 15px;
-  }
-  .partners__cards-sun-img {
-    padding-left: 15px;
+  .partners__cards-utah,
+  .partners__cards-sun {
+    margin-top: 0;
   }
   .partners__cards-img {
     width: 337px;
-  }
-  .partners__cards-img {
-    margin: auto;
   }
 }
 @media (min-width: 992px) {
@@ -101,9 +109,10 @@
   .partners__container-content-flex {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
   .partners__text {
-    width: 294px;
+    max-width: 294px;
   }
   .partners__title {
     color: var(--main-color);
@@ -113,10 +122,11 @@
   }
   .partners__cards {
     flex-wrap: nowrap;
+    margin: 0;
   }
   .partners__cards-text {
-    font-size: 19px;
-    line-height: 28px;
+    font-size: 25px;
+    line-height: 31px;
   }
   .partners__cards-img {
     width: 186px;
@@ -124,35 +134,14 @@
   .partners__cards-maui,
   .partners__cards-utah,
   .partners__cards-sun {
-    margin-top: 0px;
-  }
-  .partners__cards-utah-img {
-    padding-left: 15px;
-  }
-  .partners__cards-sun-img {
-    padding-right: 15px;
-  }
-  .partners__cards-sun-img {
-    padding: 0 15px;
+    margin-top: 0 15px;
   }
   @media (min-width: 1200px) {
     .partners__text {
-      width: 300px;
+      max-width: 300px;
     }
     .partners__cards-img {
       width: 253px;
-    }
-  }
-  @media (min-width: 1440px) {
-    .partners__container-content {
-      padding: 0 15px;
-      margin: 0 120px;
-    }
-    .partners__text {
-      width: 301px;
-    }
-    .partners__cards-img {
-      width: 270px;
     }
   }
 }
