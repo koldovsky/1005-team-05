@@ -31,8 +31,9 @@
   white-space: nowrap;
 }
 .yellowstone-container{
+  background-color: var(--brand color);
   position: relative;
+  align-items: center;
+  padding: 10px 15px;
 }
-.utah-container{
-  position: relative;
-}
+
