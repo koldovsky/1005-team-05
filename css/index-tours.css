@@ -43,11 +43,11 @@
 
 .yellowstone_tetons__text{
   position: relative;
-  margin: -40px auto 0 auto;
+  margin: -90px auto 0 auto;
   background-color: var(--brand-color);
   color: var(--title-color);
-  width: 60px;
-  height: 100px;
+  width: 400px;
+  height: 80px;
 }
 
 .tours__yellowstone img{
