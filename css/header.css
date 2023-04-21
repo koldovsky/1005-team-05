@@ -1,5 +1,21 @@
+.navbar-nav {
+  align-items: end;
+  padding-top: 85px;
+}
+
+.burger__image {
+  width: 65px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 .navbar-toggler {
   border: none;
+  position: fixed;
+  top: 25px;
+  right: 30px;
 }
 
 .header-social {
@@ -30,7 +46,6 @@
   filter: saturate(140%);
   background-repeat: no-repeat;
   max-width: 99vw;
-  /* max-height: 99vh;*/
   width: 100vw;
   height: 100vh;
   color: var(--main-color);
@@ -117,7 +132,7 @@
 .header__book-tour-button {
   text-decoration: none;
   color: var(--main-color);
-  padding: 20px 32px 20px 32px;
+  padding: 20px 32px;
   border: 1px solid var(--brand-color);
   background-color: var(--brand-color);
   border-radius: 32px;
@@ -137,11 +152,10 @@
 
 .header__discover-button {
   text-decoration: none;
-  color: var(--brand-color);
-  padding: 20px 32px 20px 32px;
+  color: var(--main-color);
+  padding: 20px 32px;
   border: 1px solid var(--brand-color);
   border-radius: 32px;
-  background-color: var(--main-color);
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
 }
@@ -181,6 +195,10 @@
 }
 
 @media (min-width: 991px) {
+  .navbar-nav {
+    padding-top: 0;
+  }
+
   .text__experience {
     font-size: 25px;
   }
@@ -263,7 +281,6 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  /* font-size: 140px;*/
 }
 
 @keyframes textclip {
