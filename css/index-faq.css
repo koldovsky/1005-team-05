@@ -31,3 +31,14 @@
 .faq__questions-text {
   font-family: "Montserrat", sans-serif;
 }
+
+.accordion {
+  --bs-accordion-btn-focus-border-color: transparent;
+  --bs-accordion-btn-focus-box-shadow: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--title-color);
+  background-color: transparent;
+  box-shadow: transparent;
+}
