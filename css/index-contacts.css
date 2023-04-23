@@ -163,7 +163,7 @@
 
 .contacts__form-field select {
     color: rgb(28, 28, 27, 0.54);
-  }
+}
 
 .contacts__form-field:nth-child(4),
 .contacts__form-field textarea {
@@ -177,6 +177,8 @@
 .contacts__form-button {
     margin-top: 56px;
     padding: 16px 24px;
+    max-width: 100%;
+    width: 249px;
     background-color: rgb(251, 176, 31);
     border-radius: 34px;
     font-size: 14px;
@@ -184,6 +186,7 @@
     text-align: center;
     display: inline-block;
     height: 46px;
+    line-height: 14px;
     border-width: 0px;
     color: rgb(255, 255, 255)
 }
