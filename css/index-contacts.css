@@ -184,8 +184,7 @@
 .contacts__form-button {
     margin-top: 56px;
     padding: 16px 24px;
-    max-width: 100%;
-    width: 249px;
+    width: 100%;
     background-color: rgb(251, 176, 31);
     border-radius: 34px;
     font-size: 14px;
