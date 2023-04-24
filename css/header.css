@@ -28,9 +28,9 @@
   color: var(--main-color);
 }
 
-.nav-link img {
+/*.nav-link img {
   max-width: 30px !important;
-}
+}*/
 
 .header__container {
   display: flex;
