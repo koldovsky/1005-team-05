@@ -5,6 +5,7 @@
 .camping__tours {
   text-align: center;
   color: #fff;
+  font-size: 46px;
 }
 
 .tours__link {
@@ -132,4 +133,11 @@
   font-size: 12px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
+}
+
+.tours__imag{
+  object-fit: cover;
+  object-position: 0% 0%;
+  width: 100%;
+  height: 100%;
 }
