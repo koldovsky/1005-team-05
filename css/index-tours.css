@@ -99,6 +99,31 @@
 .yellowstone__text{
   text-align: center;
   padding: 5px;
-  font-size: 16px;
+  font-size: 30px;
   color: var(--title-color);
+  font-weight: 400;
+}
+
+.utah_arizona__text{
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  color: var(--title-color);
+  font-weight: 400;
+}
+
+.montana__text{
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  color: var(--title-color);
+  font-weight: 400;
+}
+
+.banff_yoho__text{
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  color: var(--title-color);
+  font-weight: 400;
 }
