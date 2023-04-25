@@ -41,7 +41,7 @@
   white-space: nowrap;
 }
 
-.yellowstone_tetons__text{
+.yellowstone_tours__container{
   position: relative;
   margin: -90px auto 0 auto;
   background-color: var(--brand-color);
@@ -50,7 +50,7 @@
   height: 80px;
 }
 
-.utah_arizona__text{
+.utah_tours__container{
   position: relative;
   margin: -80px auto 0 auto;
   background-color: var(--brand-color);
@@ -59,16 +59,15 @@
   height: 70px;
 }
 
-.montana__text{
+.montana_tours__container{
   position: relative;
   margin: -80px auto 0 auto;
   background-color: var(--brand-color);
-  color: var(--title-color);
   width: 320px;
   height: 70px;
 }
 
-.banff_yoho__text{
+.banff_tours__container{
   position: relative;
   margin: -90px auto 0 auto;
   background-color: var(--brand-color);
@@ -95,4 +94,11 @@
 .tours__banff img{
   width: 580px;
   height: 360px;
+}
+
+.yellowstone__text{
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: var(--title-color);
 }
