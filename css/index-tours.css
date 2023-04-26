@@ -2,9 +2,9 @@
   background: url(../img/tours-fon.png) 50.31% 100% / cover;
 }
 
-.camping__tours {
+.camping__tours h2{
   text-align: center;
-  color: #fff;
+  color: var(--main-color);
   font-size: 46px;
 }
 
@@ -44,7 +44,7 @@
 
 .yellowstone_tours__container{
   position: relative;
-  margin: -90px auto 0 auto;
+  margin: -80px auto 0 auto;
   background-color: var(--brand-color);
   color: var(--title-color);
   width: 400px;
@@ -78,23 +78,23 @@
 }
 
 .tours__yellowstone img{
-  width: 680px;
-  height: 460px;
+  width: 480px;
+  height: 360px;
 }
 
 .tours__utah img{
-  width: 680px;
-  height: 480px;
+  width: 580px;
+  height: 380px;
 }
 
 .tours__montana img{
-  width: 680px;
-  height: 480px;
+  width: 580px;
+  height: 380px;
 }
 
 .tours__banff img{
-  width: 680px;
-  height: 460px;
+  width: 480px;
+  height: 360px;
 }
 
 .yellowstone__text{
@@ -135,9 +135,3 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.tours__imag{
-  object-fit: cover;
-  object-position: 0% 0%;
-  width: 100%;
-  height: 100%;
-}
