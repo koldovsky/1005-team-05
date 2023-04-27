@@ -1,4 +1,4 @@
 document.addEventListener("partialsLoaded", () => {
-  // тут треба поміняти на ваші JS файли
-  import("./burger.js");
+  // тут треба додати на ваші JS файли
+  import("./header-title.js");
 });
