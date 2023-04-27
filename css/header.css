@@ -1,11 +1,43 @@
-body.modal-open {
-  overflow: hidden;
+.invisible-text {
+  border: 1px solid red;
+  max-width: 300px;
+  text-align: center;
+  color: #ff1361;
+  /*display: none;*/
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: red;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 30%;
+
+
+  background: url("../img/american-campers-logo.png") 50.31% 100% / cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  width: 100%;
+
 }
 
+.win-discount-btn {
+  color: red;
+  padding: 20px 32px;
+  border: 1px solid var(--brand-color);
+  background-color: var(--brand-color);
+  border-radius: 32px;
+}
 
+.submit-discount-btn {
+  color: red;
+  padding: 20px 32px;
+  border: 1px solid var(--brand-color);
+  background-color: var(--brand-color);
+  border-radius: 32px;
+}
 
 .navbar-nav {
   align-items: end;
