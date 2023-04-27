@@ -14,6 +14,6 @@ navbarCollapse.addEventListener('click', () => {
     if (navbarContent.classList.contains('show')) {
         body.classList.remove('overflow-hidden');
         body.classList.add('auto');
-        body.navbarCollapse.remove('collapse show');
+        
     }
 });
