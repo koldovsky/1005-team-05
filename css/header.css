@@ -1,3 +1,11 @@
+body.modal-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+
 .navbar-nav {
   align-items: end;
   padding-top: 85px;
@@ -36,6 +44,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0 32px;
+  /* min-height: 25vh;*/
 }
 
 .nav__menu-list {
@@ -49,8 +58,8 @@
   background: url("../img/background-header-picture_optimized_3840.png") 50.31% 100% / cover;
   filter: saturate(140%);
   background-repeat: no-repeat;
-  max-width: 99vw;
-  width: 100vw;
+  max-width: 100%;
+  width: 100%;
   color: var(--main-color);
 }
 
