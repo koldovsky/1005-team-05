@@ -6,7 +6,7 @@ logoIcon.addEventListener("click", function () {
   invisibleText.style.display = "block";
   setTimeout(() => {
     invisibleText.style.display = "none";
-  }, 15000);
+  }, 7000);
 });
 submitbtn.addEventListener("click", stopInterval);
 function Random() {
