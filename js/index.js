@@ -1,5 +1,5 @@
 document.addEventListener("partialsLoaded", () => {
-   // тут треба поміняти на ваші JS файли
-   import('./header-title.js');
-   
+  // тут треба поміняти на ваші JS файли
+  import("./header-title.js");
+  import("./partners.js");
 });
