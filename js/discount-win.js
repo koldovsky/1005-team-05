@@ -1,10 +1,14 @@
 const invisibleText = document.querySelector(".invisible-text");
-
-
-
+const logoIcon = document.querySelector(".header__logo");
 const winbtn = document.querySelector(".win-discount-btn");
 const submitbtn = document.querySelector(".submit-discount-btn");
-submitbtn.addEventListener("click", stop);
+logoIcon.addEventListener("click", function () {
+  invisibleText.style.display = "block";
+  setTimeout(() => {
+    invisibleText.style.display = "none";
+  }, 15000);
+});
+submitbtn.addEventListener("click", stopInterval);
 function Random() {
   const max = 30;
   winbtn.innerText = Math.round(Math.random() * max);
@@ -12,17 +16,17 @@ function Random() {
 let discountRandomizer = setInterval(Random, 100);
 let count;
 let jsonStr;
-function stop() {
+function stopInterval() {
   clearInterval(discountRandomizer);
-  const ident = Date.now();
-  console.log(ident);
+  const unicNumber = Date.now();
+  console.log(unicNumber);
   jsonStr = {
-    identuficator: ident,
+    identuficator: unicNumber,
     discount: document.querySelector(".win-discount-btn").innerText,
   };
   console.log(JSON.stringify(jsonStr));
-  submitbtn.removeEventListener("click", stop);
+  submitbtn.removeEventListener("click", stopInterval);
 }
-submitbtn.addEventListener("click", stop);
+submitbtn.addEventListener("click", stopInterval);
 console.log(discountRandomizer);
 setTimeout(console.log(count), 5000);
