@@ -2,8 +2,6 @@
   background: url(../img/tours-fon.png) 50.31% 100% / cover;
   padding-top: 50px;
   padding-bottom: 100px;
-  min-width: 320px;
-  max-width: 1200px;
 }
 
 .camping__tours h2{
@@ -14,12 +12,21 @@
 }
 
 @media (min-width: 600px) {
-  .tours__card{
+  .yellowstone_utah__tours{
     display: flex;
     flex-direction: row;
     gap: 5px;
+    justify-content: center;
   }
 }
 
+@media (min-width: 600px) {
+  .montana_banff__tours{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+  }
+}
 
 
