@@ -2,7 +2,7 @@
   background: url(../img/tours-fon.png) 50.31% 100% / cover;
 }
 
-.camping__tours h2{
+.camping__tours h2 {
   text-align: center;
   color: var(--main-color);
   font-size: 46px;
@@ -10,23 +10,23 @@
 
 .tours__link {
   text-align: center;
-} 
+}
 
-.tours__card{
+.tours__card {
   text-align: center;
   padding: 15px 15px 15px 15px;
   margin: auto;
 }
 
-@media(min-width:600px){
-  .tours__card{
+@media(min-width:600px) {
+  .tours__card {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
   }
 }
 
-.button{
+.button {
   background-color: var(--dark-accent-color);
   border: 1px solid var(--dark-accent-color);
   border-radius: 32px;
@@ -42,7 +42,7 @@
   white-space: nowrap;
 }
 
-.yellowstone_tours__container{
+.yellowstone_tours__container {
   position: relative;
   margin: -80px auto 0 auto;
   background-color: var(--brand-color);
@@ -51,7 +51,7 @@
   height: 80px;
 }
 
-.utah_tours__container{
+.utah_tours__container {
   position: relative;
   margin: -80px auto 0 auto;
   background-color: var(--brand-color);
@@ -60,7 +60,7 @@
   height: 70px;
 }
 
-.montana_tours__container{
+.montana_tours__container {
   position: relative;
   margin: -80px auto 0 auto;
   background-color: var(--brand-color);
@@ -68,7 +68,7 @@
   height: 70px;
 }
 
-.banff_tours__container{
+.banff_tours__container {
   position: relative;
   margin: -90px auto 0 auto;
   background-color: var(--brand-color);
@@ -77,27 +77,27 @@
   height: 80px;
 }
 
-.tours__yellowstone img{
+.tours__yellowstone img {
   width: 480px;
   height: 360px;
 }
 
-.tours__utah img{
+.tours__utah img {
   width: 580px;
   height: 380px;
 }
 
-.tours__montana img{
+.tours__montana img {
   width: 580px;
   height: 380px;
 }
 
-.tours__banff img{
+.tours__banff img {
   width: 480px;
   height: 360px;
 }
 
-.yellowstone__text{
+.yellowstone__text {
   text-align: center;
   padding: 5px;
   font-size: 30px;
@@ -105,7 +105,7 @@
   font-weight: 700;
 }
 
-.utah_arizona__text{
+.utah_arizona__text {
   text-align: center;
   padding: 5px;
   font-size: 30px;
@@ -113,7 +113,7 @@
   font-weight: 700;
 }
 
-.montana__text{
+.montana__text {
   text-align: center;
   padding: 5px;
   font-size: 30px;
@@ -121,7 +121,7 @@
   font-weight: 700;
 }
 
-.banff_yoho__text{
+.banff_yoho__text {
   text-align: center;
   padding: 5px;
   font-size: 30px;
@@ -129,9 +129,8 @@
   font-weight: 700;
 }
 
-.details__text{
+.details__text {
   font-size: 12px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
-
