@@ -20,7 +20,7 @@ function stopInterval() {
   clearInterval(discountRandomizer);
   const unicNumber = Date.now();
   jsonStr = {
-    identuficator: unicNumber,
+    uniqueNumber: unicNumber,
     discount: document.querySelector(".win-discount-btn").innerText,
   };
   console.log(JSON.stringify(jsonStr));
