@@ -1,4 +1,3 @@
-
 async function loadData(){
     const response = await fetch('api/testimonials.json');
     const testimonials = await response.json();
