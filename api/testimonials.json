@@ -1,0 +1,23 @@
+[
+    {
+       "id":"1",
+       "message":"\" This was my first camping trip and it was one of the top vacations of my life. What a great experience and adventure! The guides were very professional, knowledgeable and experienced. My daughter loved the camping and we will continue exploring the country. \"",
+       "massageData":"October 13, 2017",
+       "clientFoto":"img/lucy_peterson.jpeg",
+       "clientName":"Lucy Peterson"
+    },
+    {
+       "id":"2",
+       "message":"\" My girlfriend and I enjoyed the weekend camping with experienced guides. We traveled to Yellowstone and are still impressed by the fantastic nature! Everything was planned to the smallest detail, we only needed to take personal belongings with us. \"",
+       "massageData":"January 28, 2018",
+       "clientFoto":"img/alex_gordons.jpeg",
+       "clientName":"Alex Gordons"
+    },
+    {
+       "id":"3",
+       "message":"\" We decided to introduce our children to camping trips, they are 5 and 9 years old now. The kids really enjoyed such an active holiday. They learned to fish in the lake, climb trees, make a fire. I hope they will remember some interesting facts that the guides told us. Thank you! \"",
+       "massageData":"May 05, 2019",
+       "clientFoto":"img/phil_smith.jpeg",
+       "clientName":"Phil Smith"
+    }
+ ]
