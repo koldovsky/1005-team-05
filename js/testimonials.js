@@ -1,8 +1,9 @@
 
-fetch('api/testimonials.json')
-    .then(response => response.json() )
-    .then(testimonials => renderTestimonials(testimonials));
-
+async function loadData(){
+    const response = await fetch('api/testimonials.json');
+    const testimonials = await response.json();
+    renderTestimonials(testimonials);
+}
 
 function renderTestimonials(testimonials) {
     const testimonialsList = document.querySelector('.testimonials__cards');
@@ -25,3 +26,4 @@ function createTestimonialHtml(testimonial){
             </article>`
 }
 
+loadData()
