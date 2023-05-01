@@ -13,9 +13,8 @@ function renderTestimonials(testimonials) {
     }
 }
 
-
 function createTestimonialHtml(testimonial){
-    const newColor = (testimonial.id%2===0 ? 'new_color': '');
+    const newColor = (testimonial.id % 2 === 0 ? 'new_color': '');
     return  `<article class="testimonials__cards_items ${newColor}">
                 <p class="card_items_text">${testimonial.message}</p>
                 <p class="card_data">${testimonial.massageData}</p>
