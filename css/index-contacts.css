@@ -181,34 +181,6 @@
     color: rgb(255, 255, 255)
 }
 
-/* @media (min-width: 768px) {
-    .contacts__outer {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .contacts__contacts-wrapper,
-    .contacts__form-wrapper {
-        flex-basis: 50%;
-        max-width: 50%;
-    }
-
-    .contacts__contacts-list-item h3 {
-        margin-bottom: 0px;
-        padding-right: 15px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-   
-    }
-
-    .contacts__contact-details {
-        padding-left: 15px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
-} */
-
-
 @media (min-width: 768px) {
     .contacts__outer {
         flex-direction: row;
