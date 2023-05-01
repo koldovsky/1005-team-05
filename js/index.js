@@ -3,5 +3,4 @@ document.addEventListener("partialsLoaded", () => {
   import("./header-burger.js");
   import("./index-partners.js");
   import("./testimonials.js");
-  
 });
