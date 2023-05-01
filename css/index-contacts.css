@@ -1,7 +1,7 @@
 .contacts__section {
     display: block;
     padding: 90px 24px;
-    background: url("../img/background-contacts.webp") 46% 100% / cover;
+    background: url("../img/background-contacts.webp") 46% bottom / cover;
     background-repeat: no-repeat;
     background-color: var(--title-color);
 }
