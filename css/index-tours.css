@@ -12,12 +12,12 @@
 .camping__tours h2 {
   font-family: "Passion One", cursive;
   font-size: 38px;
-  font-weight: 700; /*змінила товщину*/
-  line-height: 43px; /*додала*/
+  font-weight: 700; 
+  line-height: 43px; 
   color: var(--main-color);
   text-align: center;
-  padding: 0 15px; /*додала*/
-  margin: 0 -15px; /*додала*/
+  padding: 0 15px; 
+  margin: 0 -15px;
 }
 
 .tours__link-button {
@@ -32,7 +32,6 @@
 }
 
 .tours__imag {
-  /*була неправильна назва класу*/
   display: block;
   padding-top: 30px;
   margin: auto;
@@ -121,7 +120,8 @@
   .utah_tours__container,
   .banff_tours__container {
     margin: -100px 5px 0 20px;
-    width: 300px;
+    width: 400px;
+    text-align: center;
   }
   .tours__utah img,
   .tours__montana img {
@@ -148,11 +148,12 @@
   .utah_tours__container,
   .banff_tours__container {
     margin: -100px 5px 0 20px;
-    width: 300px;
+    width: 400px;
+    text-align: center;
   }
   .tours__utah img,
   .tours__montana img {
-    height: 400px;
+    height: 300px;
   }
   .tours__imag {
     width: 558px;
