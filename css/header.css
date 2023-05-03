@@ -1,9 +1,42 @@
+.invisible-text {
+  max-width: 300px;
+  text-align: center;
+  color: var(--main-color);
+  display: none;
+  position: absolute;
+  padding: 5px;
+  margin-left: -25px;
+  margin-top: 20px;
+  border: 1px solid var(--brand-color);
+}
+
+.win-discount-btn {
+  color: var(--main-color);
+  padding: 20px 32px;
+  border: 1px solid var(--brand-color);
+  background-color: var(--brand-color);
+  border-radius: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.submit-discount-btn {
+  color: var(--main-color);
+  padding: 20px 32px;
+  border: 1px solid var(--brand-color);
+  background-color: var(--brand-color);
+  border-radius: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
 .navbar-nav {
   align-items: end;
   padding-top: 85px;
 }
 
 .burger__image {
+  position: relative;
   width: 65px;
 }
 
@@ -12,6 +45,7 @@
 }
 
 .navbar-toggler {
+  background-attachment: fixed;
   border: none;
   position: fixed;
   top: 25px;
@@ -22,20 +56,17 @@
   display: flex;
   flex-direction: row;
   gap: 5px;
+  padding-left: 15px;
 }
 
 .nav-link {
   color: var(--main-color);
 }
 
-/*.nav-link img {
-  max-width: 30px !important;
-}*/
-
 .header__container {
   display: flex;
   justify-content: space-between;
-  padding: 0 32px;
+  padding: 30px 32px;
 }
 
 .nav__menu-list {
@@ -49,14 +80,9 @@
   background: url("../img/background-header-picture_optimized_3840.png") 50.31% 100% / cover;
   filter: saturate(140%);
   background-repeat: no-repeat;
-  max-width: 99vw;
-  width: 100vw;
+  max-width: 100%;
+  width: 100%;
   color: var(--main-color);
-}
-
-.header__american-campers-logo {
-  margin-top: 20px;
-  margin-left: 10px;
 }
 
 .header__american-campers-logo img {
@@ -237,7 +263,7 @@
   }
 
   .nav__menu-item>a {
-    color: #ffffff;
+    color: var(--main-color);
   }
 
   .header-social {
@@ -279,7 +305,7 @@
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
-  color: #fff;
+  color: var(--main-color);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

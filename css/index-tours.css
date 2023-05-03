@@ -1,143 +1,147 @@
 .tours {
   background: url(../img/tours-fon.png) 50.31% 100% / cover;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
-.camping__tours {
+.tours__card {
+  margin: 0 auto;
+  max-width: fit-content;
+}
+.tours__container{
+  padding: 0 24px;
+}
+.camping__tours h2 {
+  font-family: "Passion One", cursive;
+  font-size: 38px;
+  font-weight: 700; 
+  line-height: 43px; 
+  color: var(--main-color);
   text-align: center;
-  color: #fff;
-  font-size: 46px;
+  padding: 0 15px; 
+  margin: 0 -15px;
+}
+
+.tours__link-button {
+  border: 1px solid var(--dark-accent-color);
+  background-color: var(--dark-accent-color);
 }
 
 .tours__link {
-  text-align: center;
-} 
-
-.tours__card{
-  text-align: center;
-  padding: 15px 15px 15px 15px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-@media(min-width:600px){
-  .tours__card{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
+.tours__imag {
+  display: block;
+  width: 350px;
+  padding-top: 30px;
+  margin: auto;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.yellowstone_tours__container,
+.montana_tours__container,
+.utah_tours__container,
+.banff_tours__container {
+  margin: -100px auto 0 auto;
+  position: relative;
+  background-color: var(--brand-color);
+  color: var(--title-color);
+  padding: 15px;
+  z-index: 1;
+}
+
+.yellowstone__text,
+.utah_arizona__text,
+.montana__text,
+.banff_yoho__text {
+  font-family: "Passion One", cursive;
+  text-align: center;
+  font-size: 24px;
+  color: var(--title-color);
+  font-weight: 400;
+}
+
+.details__text {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .yellowstone_utah__tours {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .montana_banff__tours {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .tours__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .tours__imag {
+    width: 337px;
+  }
+  .yellowstone_tours__container,
+  .montana_tours__container,
+  .utah_tours__container,
+  .banff_tours__container {
+    margin: -100px auto 0 auto;
+    width: 300px;
+  }
+  .tours__utah img,
+  .tours__montana img {
+    height: 300px;
+  }
+  .tours__link {
+    margin-top: 50px;
+    text-align: center;
   }
 }
 
-.button{
-  background-color: var(--dark-accent-color);
-  border: 1px solid var(--dark-accent-color);
-  border-radius: 32px;
-  color: var(--main-color);
-  cursor: pointer;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: 600;
-  padding: 20px 32px;
-  margin: 10px;
-  text-align: center;
-  text-decoration: none;
-  white-space: nowrap;
+@media (min-width: 911px) {
+  .tours__imag {
+    width: 437px;
+  }
+}
+  
+@media (min-width: 1100px) {
+  .tours__imag {
+    width: 537px;
+  }
 }
 
-.yellowstone_tours__container{
-  position: relative;
-  margin: -90px auto 0 auto;
-  background-color: var(--brand-color);
-  color: var(--title-color);
-  width: 400px;
-  height: 80px;
-}
-
-.utah_tours__container{
-  position: relative;
-  margin: -80px auto 0 auto;
-  background-color: var(--brand-color);
-  color: var(--title-color);
-  width: 320px;
-  height: 70px;
-}
-
-.montana_tours__container{
-  position: relative;
-  margin: -80px auto 0 auto;
-  background-color: var(--brand-color);
-  width: 320px;
-  height: 70px;
-}
-
-.banff_tours__container{
-  position: relative;
-  margin: -90px auto 0 auto;
-  background-color: var(--brand-color);
-  color: var(--title-color);
-  width: 400px;
-  height: 80px;
-}
-
-.tours__yellowstone img{
-  width: 680px;
-  height: 460px;
-}
-
-.tours__utah img{
-  width: 680px;
-  height: 480px;
-}
-
-.tours__montana img{
-  width: 680px;
-  height: 480px;
-}
-
-.tours__banff img{
-  width: 680px;
-  height: 460px;
-}
-
-.yellowstone__text{
-  text-align: center;
-  padding: 5px;
-  font-size: 30px;
-  color: var(--title-color);
-  font-weight: 700;
-}
-
-.utah_arizona__text{
-  text-align: center;
-  padding: 5px;
-  font-size: 30px;
-  color: var(--title-color);
-  font-weight: 700;
-}
-
-.montana__text{
-  text-align: center;
-  padding: 5px;
-  font-size: 30px;
-  color: var(--title-color);
-  font-weight: 700;
-}
-
-.banff_yoho__text{
-  text-align: center;
-  padding: 5px;
-  font-size: 30px;
-  color: var(--title-color);
-  font-weight: 700;
-}
-
-.details__text{
-  font-size: 12px;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
-}
-
-.tours__imag{
-  object-fit: cover;
-  object-position: 0% 0%;
-  width: 100%;
-  height: 100%;
+@media (min-width: 1100px) {
+  .yellowstone_utah__tours {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .montana_banff__tours {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .yellowstone_tours__container,
+  .montana_tours__container,
+  .utah_tours__container,
+  .banff_tours__container {
+    margin: -100px auto 0 auto;
+    width: 300px;
+  }
+  .tours__utah img,
+  .tours__montana img {
+    height: 500px;
+  }
+  .tours__imag {
+    width: 558px;
+  }
 }
