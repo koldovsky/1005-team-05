@@ -1,11 +1,61 @@
+.invisible-text {
+  max-width: 300px;
+  text-align: center;
+  color: var(--main-color);
+  display: none;
+  position: absolute;
+  padding: 5px;
+  margin-left: -25px;
+  margin-top: 20px;
+  border: 1px solid var(--brand-color);
+}
+
+.win-discount-btn {
+  color: var(--main-color);
+  padding: 20px 32px;
+  border: 1px solid var(--brand-color);
+  background-color: var(--brand-color);
+  border-radius: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.submit-discount-btn {
+  color: var(--main-color);
+  padding: 20px 32px;
+  border: 1px solid var(--brand-color);
+  background-color: var(--brand-color);
+  border-radius: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  align-items: end;
+  padding-top: 85px;
+}
+
+.burger__image {
+  position: relative;
+  width: 65px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 .navbar-toggler {
   border: none;
+  position: fixed;
+  top: 25px;
+  right: 30px;
 }
 
 .header-social {
   display: flex;
   flex-direction: row;
   gap: 5px;
+  padding-left: 15px;
 }
 
 .nav-link {
@@ -15,7 +65,7 @@
 .header__container {
   display: flex;
   justify-content: space-between;
-  padding: 0 32px;
+  padding: 30px 32px;
 }
 
 .nav__menu-list {
@@ -29,16 +79,9 @@
   background: url("../img/background-header-picture_optimized_3840.png") 50.31% 100% / cover;
   filter: saturate(140%);
   background-repeat: no-repeat;
-  max-width: 99vw;
-  /* max-height: 99vh;*/
-  width: 100vw;
-  height: 100vh;
+  max-width: 100%;
+  width: 100%;
   color: var(--main-color);
-}
-
-.header__american-campers-logo {
-  margin-top: 20px;
-  margin-left: 10px;
 }
 
 .header__american-campers-logo img {
@@ -49,7 +92,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 160px;
 }
 
 .text__experience {
@@ -70,7 +113,7 @@
 }
 
 .header__center-line {
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 .header__center-line img {
@@ -100,6 +143,7 @@
   gap: 20px;
   padding: 50px;
   margin-bottom: 20px;
+  padding-bottom: 100px;
   vertical-align: middle;
 }
 
@@ -117,7 +161,7 @@
 .header__book-tour-button {
   text-decoration: none;
   color: var(--main-color);
-  padding: 20px 32px 20px 32px;
+  padding: 20px 32px;
   border: 1px solid var(--brand-color);
   background-color: var(--brand-color);
   border-radius: 32px;
@@ -137,18 +181,17 @@
 
 .header__discover-button {
   text-decoration: none;
-  color: var(--brand-color);
-  padding: 20px 32px 20px 32px;
+  color: var(--main-color);
+  padding: 20px 32px;
   border: 1px solid var(--brand-color);
   border-radius: 32px;
-  background-color: var(--main-color);
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
 }
 
 @media (min-width: 354px) {
   .header__under-nav {
-    margin-top: 200px;
+    margin-top: 160px;
   }
 }
 
@@ -175,11 +218,16 @@
 
   .header__main-text {
     font-size: 80px;
+    letter-spacing: 8px;
   }
 
 }
 
 @media (min-width: 991px) {
+  .navbar-nav {
+    padding-top: 0;
+  }
+
   .text__experience {
     font-size: 25px;
   }
@@ -214,7 +262,7 @@
   }
 
   .nav__menu-item>a {
-    color: #ffffff;
+    color: var(--main-color);
   }
 
   .header-social {
@@ -228,13 +276,13 @@
   }
 
   .header__under-nav {
-    margin-top: 200px;
+    margin-top: 160px;
   }
 }
 
 @media (min-width: 1024px) {
   .header__under-nav {
-    margin-top: 200px;
+    margin-top: 160px;
   }
 }
 
@@ -256,13 +304,12 @@
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
-  color: #fff;
+  color: var(--main-color);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  /* font-size: 140px;*/
 }
 
 @keyframes textclip {

@@ -1,13 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Passion+One&display=swap');
-
-:root {
-  --main-color: #1C1C1B
-  --block-color: #FFFFFF;
-}
 .itinerary {
   padding-top: 5px;
-  background: url("https://res2.weblium.site/res/5dc02e35769ac4002109a58b/5dc17a6731a15200214b3304.webp");
+  background-color: #f3f3f2;
   background-size: cover;
   min-width: 100%;
   min-height: 73vh;
@@ -32,21 +25,21 @@
   display: block;
   justify-content: center;
   align-items: center;
-  
 }
 
 .itinerary__list-item {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .itinerary__item {
   max-width: 1200px;
-  max-height: 400px;
+  max-height: 600px;
   margin: 30px 0px 0px 0px;
   align-items: center;
   flex-direction: column;
-  background-color: white
+  background-color: white;
 }
 
 .itinerary__list-image img {
@@ -56,40 +49,38 @@
   padding-top: 20px;
   padding-left: 20px;
   padding-bottom: 20px;
-
 }
 
 .itinerary__item-description {
   max-width: 640px;
 }
 .itinerary__item-title {
-  font-family: 'Passion One', cursive;
+  font-family: "Passion One", cursive;
   font-size: 25px;
   text-align: center;
 }
 .itinerary__item-description {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  color: #1C1C1BBA;
-  padding: auto;
+  color: #1c1c1bba;
+  padding: 5px 15px 10px 15px;
   margin: auto;
 }
 
 .itinerary__item-title-green {
-  color: #99B20F
+  color: #99b20f;
 }
 
 .itinerary__footer {
-  background-image: url('/img/testim-faq-background.png');
+  background-image: url("/img/testim-faq-background.png");
 }
 
-@media (min-width: 500px) {
+@media (min-width: 780px) {
   .itinerary__item {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
-  
 }
 
 .container {

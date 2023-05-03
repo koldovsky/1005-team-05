@@ -1,3 +1,12 @@
+.ourteam-gallery-bg {
+    background-color: #f3f3f2;
+}
+
+.ourteam-gallery-bg img {
+    display: block;
+    width: 100%;
+}
+
 .gallery__title {
     display: flex;
     justify-content: center;
