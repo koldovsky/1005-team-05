@@ -1,0 +1,245 @@
+.partners {
+  background-color: var(--title-color);
+}
+.partners__container {
+  padding: 80px 0px 30px 0px;
+  min-width: 320px;
+}
+.partners__container-content {
+  padding: 0 24px;
+}
+.partners__container-content-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.partners__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 15px;
+  margin: 0 -15px;
+}
+.partners__title {
+  color: var(--main-color);
+  font-family: "Passion One", cursive;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 43px;
+  text-align: left;
+  justify-content: flex-start;
+}
+.partners__subtitle {
+  color: var(--main-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 28.5px;
+  text-align: left;
+  margin-top: 25px;
+}
+.partners__cards-text {
+  color: var(--main-color);
+  font-family: "Passion One", cursive;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 20px;
+}
+.partners__cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px -15px 0 -15px;
+}
+.partners__cards-maui,
+.partners__cards-utah,
+.partners__cards-sun {
+  display: flex;
+  flex-direction: column;
+  justify-content: fl;
+  padding: 15px;
+  margin-top: 50px;
+}
+.partners__cards-img {
+  width: 327px;
+  width: 100%;
+  margin: auto;
+  max-width: 100%;
+  display: block;
+}
+@media (min-width: 480px) {
+  .partners__cards-img {
+    width: 432px;
+  }
+}
+@media (min-width: 768px) {
+  .partners__container-content {
+    padding: 0 32px;
+  }
+  .partners__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .partners__cards-text {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  .partners__cards-maui {
+    flex-grow: 2;
+    margin-top: 0;
+  }
+  .partners__cards-utah,
+  .partners__cards-sun {
+    margin-top: 0;
+  }
+  .partners__cards-img {
+    width: 337px;
+  }
+}
+@media (min-width: 992px) {
+  .partners__container-content {
+    padding: 0 40px;
+  }
+  .partners__container-content-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .partners__text {
+    max-width: 294px;
+  }
+  .partners__title {
+    color: var(--main-color);
+    font-family: "Passion One", cursive;
+    font-size: 55px;
+    line-height: 62px;
+  }
+  .partners__cards {
+    flex-wrap: nowrap;
+    margin: 0;
+  }
+  .partners__cards-text {
+    font-size: 25px;
+    line-height: 31px;
+  }
+  .partners__cards-img {
+    width: 186px;
+  }
+  .partners__cards-maui,
+  .partners__cards-utah,
+  .partners__cards-sun {
+    margin-top: 0 15px;
+  }
+  @media (min-width: 1200px) {
+    .partners__text {
+      max-width: 300px;
+    }
+    .partners__cards-img {
+      width: 253px;
+    }
+  }
+}
+.relax__app {
+  box-sizing: border-box;
+  background: var(--title-color) no-repeat center center/cover;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.relax__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 65px;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  transform: scale(1);
+}
+.relax__circle {
+  background-color: var(--title-color);
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.relax__gradient-circle {
+  background: conic-gradient(
+    #55b7a4 0%,
+    #4ca493 40%,
+    #fff 40%,
+    #fff 60%,
+    #336d62 60%,
+    #2a5b52 100%
+  );
+  height: 220px;
+  width: 220px;
+  z-index: -2;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+.relax__pointer {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: block;
+}
+.relax__pointer-container {
+  position: absolute;
+  top: -55px;
+  width: 20px;
+  height: 145px;
+  animation: rotate 7.5s linear forwards infinite;
+  transform-origin: bottom center;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.relax__container.grow {
+  animation: grow 3s linear forwards;
+}
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.relax__container.shrink {
+  animation: shrink 3s linear forwards;
+}
+@keyframes shrink {
+  from {
+    transform: scale(1.2);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}

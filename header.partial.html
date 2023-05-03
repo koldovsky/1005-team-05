@@ -1,39 +1,79 @@
 <header class="header">
     <div class="header__container">
         <div class="header__american-campers-logo">
-            <img src="img/american-campers-logo.png" alt="American-Campers Logo">
+            <img class="header__logo" src="img/american-campers-logo.png" alt="American-Campers Logo">
+            <div class="invisible-text">
+                <p class="text-congratulation">CONGRATULATIONS!!! You found it.
+                    Choose your discount in time.</p>
+                <button class="win-discount-btn">Button</button>
+                <button class="submit-discount-btn">DISCOUNT</button>
+            </div>
         </div>
-        <nav class="header__menu nav">
-            <ul id="nav__menu" class="nav__menu-list">
-                <li class="nav__menu-item"><a href="#" class="nav__menu-link">Adventures</a></li>
-                <li class="nav__menu-item"><a href="#" class="nav__menu-link">About us</a></li>
-                <li class="nav__menu-item"><a href="#" class="nav__menu-link">Gallery</a></li>
-                <li class="nav__menu-item"><a href="#" class="nav__menu-link">Testimonials</a></li>
-                <li class="nav__menu-item"><a href="#" class="nav__menu-link">FAQ</a></li>
-                <li class="nav__menu-item"><a href="#" class="nav__menu-link">Contact us</a></li>
-            </ul>
-        </nav>
-        <div class="header-social">
-            <img width="40" src="img/facebook-logo.svg" alt="Facebook logo">
-            <img width="40" src="img/instagram-logo.svg" alt="Instagram logo">
-            <img width="40" src="img/youtube-logo.svg" alt="YouTube logo">
-        </div>
-    </div>
-    <div>
-        <p>Experience</p>
-        <h1 class="header__main-text">WILD LIFE</h1>
-    </div>
-    <div class="header__line-center-line">
-        <img src="img/line-center-header.png" alt="White line in a center header">
-    </div>
-    <div class="header__tagline">
-        <p class="header__tagline-text">Comfortable camping tours for couples and families with kids of any age.</p>
-    </div>
-    <div class="header__book-tour">
-        <a href="#" class="header__book-tour-button">Book a Tour</a>
-    </div>
-    <div class="header__discover">
-        <a href="#" class="header__discover-button">Discover more</a>
-    </div>
 
+        <nav class="navbar navbar-expand-lg navbar-dark" id="NavBar">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <img class="burger__image" src="img/lion_open-removebg — white.png" alt="burger-image">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav me-right mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#tours">Adventures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#philosophy">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Contact us</a>
+                        </li>
+                        <div class="header-social">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://uk-ua.facebook.com/"><img width="30px"
+                                        src="img/facebook-link-logo-yellow.svg" alt="Facebook logo"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.instagram.com/"><img width="30px"
+                                        src="img/instgram-link-logo-yellow.svg" alt="Instagram logo"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.youtube.com/"><img width="30px"
+                                        src="img/youtube-link-logo-yellow.svg" alt="YouTube logo"></a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="header__under-nav">
+        <div>
+            <p class="text__experience ">Experience</p>
+            <h1 class="header__main-text animate"><span>WILD</span> <span>LIFE</span></h1>
+        </div>
+        <div class="header__center-line">
+            <img src="img/line-center-header.png" alt="White line in a center header">
+        </div>
+        <div class="header__tagline">
+            <p class="header__tagline-text">Comfortable camping tours for couples and families with kids of any age.
+            </p>
+        </div>
+    </div>
+    <div class="button__book-discover">
+        <div class="header__book-tour">
+            <a href="#contacts" class="header__book-tour-button book-button ">Book a Tour</a>
+        </div>
+        <div class="header__discover">
+            <a href="#philosophy" class="header__discover-button discover-button">Discover more</a>
+        </div>
+    </div>
 </header>

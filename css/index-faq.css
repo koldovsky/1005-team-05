@@ -1,0 +1,44 @@
+.faq__container {
+  padding: 0 32px ;
+}
+
+.faq__header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.faq__header-title {
+  font-family: "Passion One", cursive;
+  margin-bottom: 25px;
+}
+.faq__header-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.test-faq-bg img {
+  display: block;
+  width: 100%;
+}
+
+.faq-partners-bg img {
+  display: block;
+  width: 100%;
+}
+
+.faq__questions-text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.accordion {
+  --bs-accordion-btn-focus-border-color: transparent;
+  --bs-accordion-btn-focus-box-shadow: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--title-color);
+  background-color: transparent;
+  box-shadow: transparent;
+}

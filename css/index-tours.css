@@ -1,0 +1,125 @@
+.tours {
+  background: url(../img/tours-fon.png) 50.31% 100% / cover;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.camping__tours h2 {
+  font-size: 46px;
+  font-weight: 500;
+  color: var(--main-color);
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .yellowstone_utah__tours {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 600px) {
+  .montana_banff__tours {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+  }
+}
+
+.button {
+  background-color: var(--dark-accent-color);
+  border: 1px solid var(--dark-accent-color);
+  border-radius: 32px;
+  color: var(--main-color);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px 32px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.tours__imag {
+  width: 100%;
+}
+
+.yellowstone_tours__container {
+  position: relative;
+  margin: -80px auto 0 auto;
+  background-color: var(--brand-color);
+  color: var(--title-color);
+  width: 400px;
+  height: 80px;
+}
+
+.utah_tours__container {
+  position: relative;
+  margin: -80px auto 0 auto;
+  background-color: var(--brand-color);
+  color: var(--title-color);
+  width: 320px;
+  height: 70px;
+}
+
+.montana_tours__container {
+  position: relative;
+  margin: -80px auto 0 auto;
+  background-color: var(--brand-color);
+  width: 320px;
+  height: 70px;
+}
+
+.banff_tours__container {
+  position: relative;
+  margin: -90px auto 0 auto;
+  background-color: var(--brand-color);
+  color: var(--title-color);
+  width: 400px;
+  height: 80px;
+}
+
+.yellowstone__text {
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  color: var(--title-color);
+  font-weight: 700;
+}
+
+.utah_arizona__text {
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  color: var(--title-color);
+  font-weight: 700;
+}
+
+.montana__text {
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  color: var(--title-color);
+  font-weight: 700;
+}
+
+.banff_yoho__text {
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  color: var(--title-color);
+  font-weight: 700;
+}
+
+.details__text {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}

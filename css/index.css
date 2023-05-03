@@ -1,7 +1,12 @@
 @import url(global.css);
+@import url(controls.css);
 @import url(header.css);
-@import url(philosophy.css);
-@import url(header.css);
-@import url(tours.css);
-@import url(nature.testimonials.partial.css);
-@import url(contacts.css);
+@import url(index-philosophy.css);
+@import url(index-tours.css);
+@import url(index-ourteam.css);
+@import url(index-gallery.css);
+@import url(index-nature.testimonials.css);
+@import url(index-faq.css);
+@import url(index-partners.css);
+@import url(index-contacts.css);
+@import url(footer.css);

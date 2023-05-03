@@ -1,1 +1,6 @@
-@import "itinerary.css";
+@import url(global.css);
+@import url(controls.css);
+@import url(header.css);
+@import url(yellowstone-witness.css);
+@import url(yellowstone-itinerary.css);
+@import url(footer.css);

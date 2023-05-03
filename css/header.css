@@ -1,80 +1,324 @@
-/** {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-    max-width: 100%;
-    
+.invisible-text {
+  max-width: 300px;
+  text-align: center;
+  color: var(--main-color);
+  display: none;
+  position: absolute;
+  padding: 5px;
+  margin-left: -25px;
+  margin-top: 20px;
+  border: 1px solid var(--brand-color);
 }
-a {
-    text-decoration:none;
+
+.win-discount-btn {
+  color: var(--main-color);
+  padding: 20px 32px;
+  border: 1px solid var(--brand-color);
+  background-color: var(--brand-color);
+  border-radius: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
-.header {
-    background: url('/img/background-header-picture.png') 50.31% 100% / cover;
-    filter:saturate(140%);
-    background-repeat: no-repeat;*/
-    /*background-size: 100%;*/
-    /*max-width: 100vw;
-    max-height: 100vh;
-    width: 100%;
-    height: 100vh;
-    color: #ffffff;
+
+.submit-discount-btn {
+  color: var(--main-color);
+  padding: 20px 32px;
+  border: 1px solid var(--brand-color);
+  background-color: var(--brand-color);
+  border-radius: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
+
+.navbar-nav {
+  align-items: end;
+  padding-top: 85px;
+}
+
+.burger__image {
+  position: relative;
+  width: 65px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler {
+  background-attachment: fixed;
+  border: none;
+  position: fixed;
+  top: 25px;
+  right: 30px;
+}
+
 .header-social {
-    order: 3;
-    width:40px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.nav-link {
+  color: var(--main-color);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.nav__menu-list {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none solid var(--main-color);
+}
+
+.header {
+  background: url("../img/background-header-picture_optimized_3840.png") 50.31% 100% / cover;
+  filter: saturate(140%);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  width: 100%;
+  color: var(--main-color);
+}
+
+.header__american-campers-logo {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.header__american-campers-logo img {
+  max-width: 136px;
+}
+
+.header__under-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 160px;
+}
+
+.text__experience {
+  text-align: center;
+  font-family: "Passion One", cursive;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.header__main-text {
+  flex-direction: column;
+  font-size: 60px;
+  letter-spacing: 6px;
+  text-align: center;
+  margin: 0 10px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+}
+
+.header__center-line {
+  margin-top: 80px;
+}
+
+.header__center-line img {
+  display: block;
+  max-width: 100%;
+}
+
+.header__tagline {
+  margin-top: 40px;
+  padding: 0 25px;
+}
+
+.header__tagline-text {
+  text-align: center;
+  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.button__book-discover {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 100px;
+  vertical-align: middle;
+}
+
+.header__book-tour {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15.4px;
+  padding-bottom: 40px;
+}
+
+.header__book-tour-button:hover {
+  background-color: var(--main-color);
+  color: var(--title-color);
+}
+
+.header__book-tour-button {
+  text-decoration: none;
+  color: var(--main-color);
+  padding: 20px 32px;
+  border: 1px solid var(--brand-color);
+  background-color: var(--brand-color);
+  border-radius: 32px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header__discover {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15.4px;
+}
+
+.header__discover-button:hover {
+  background-color: var(--brand-color);
+  color: var(--main-color);
+}
+
+.header__discover-button {
+  text-decoration: none;
+  color: var(--main-color);
+  padding: 20px 32px;
+  border: 1px solid var(--brand-color);
+  border-radius: 32px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 354px) {
+  .header__under-nav {
+    margin-top: 160px;
+  }
+}
+
+@media (min-width: 404px) {
+  .header__book-tour {
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 480px) {
+  .button__book-discover {
+    flex-direction: row;
+  }
+
+  .header__book-tour {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .text__experience {
+    font-size: 23px;
+  }
+
+  .header__main-text {
+    font-size: 80px;
+    letter-spacing: 8px;
+  }
+
+}
+
+@media (min-width: 991px) {
+  .navbar-nav {
+    padding-top: 0;
+  }
+
+  .text__experience {
+    font-size: 25px;
+  }
+
+  .header__main-text {
+    font-size: 100px;
+    letter-spacing: 10px;
+  }
+
+  .header__menu {
     display: flex;
     flex-direction: row;
-    margin: 50px 50px;
-}
-.header__american-campers-logo {*/
-   /* overflow-clip-margin: content-box;*/
-   /*border-image-repeat: stretch;
-   vertical-align: baseline;
-    order: 1;;
-    max-width:136px;
-    align-self: center;
-}
-.header__menu {
-    order:2;
-    flex-basis: 50%;
-    display: flex;
-   flex-direction: row;
-    list-style-type: none;
     align-self: center;
     justify-content: end;
-}
-.header__container {
-    display: flex;
-    flex-direction: row;
-    margin-left: 250px;*/
-   /* flex-wrap: wrap;*/
-/*}
-.nav__menu-list {
-   display: inline;
-   align-items:center;
-   text-align: end;
-   
-}
-.nav__menu-item {
+  }
+
+  .nav__menu-list {
+    display: inline;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav__menu-item {
     display: inline;
     list-style-type: none;
-    margin:5px;
-    
-}
-.header-social>img {
+    margin: 5px;
+  }
+
+  .header-social>img {
     margin: 15px;
     min-width: 30px;
-}
-.nav__menu-item>a {
-    color: #ffffff;
-}
-.header__under-nav {
+  }
+
+  .nav__menu-item>a {
+    color: var(--main-color);
+  }
+
+  .header-social {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .nav__menu-item>a {
+    color: var(--main-color);
+  }
+
+  .header__under-nav {
+    margin-top: 160px;
+  }
 }
-.header__center-line {
-    max-width:max-content ;
-}*/
+
+@media (min-width: 1024px) {
+  .header__under-nav {
+    margin-top: 160px;
+  }
+}
+
+@media (min-width: 1049px) {
+  .header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.animate {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg,
+      #fff800 0%,
+      #bda8d4 29%,
+      #ff1361 67%,
+      #fff800 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: var(--main-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
