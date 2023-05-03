@@ -8,7 +8,9 @@
   margin: 0 auto;
   max-width: fit-content;
 }
-
+.tours__container{
+  padding: 0 24px;
+}
 .camping__tours h2 {
   font-family: "Passion One", cursive;
   font-size: 38px;
@@ -36,7 +38,7 @@
   width: 350px;
   padding-top: 30px;
   margin: auto;
-  max-height: 712px;
+  max-height: 500px;
   object-fit: cover;
 }
 
