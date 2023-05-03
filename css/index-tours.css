@@ -44,6 +44,8 @@
 .montana_tours__container,
 .utah_tours__container,
 .banff_tours__container {
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   margin: -100px 5px 0 5px;
   background-color: var(--brand-color);
@@ -117,8 +119,6 @@
   }
 }
 
-<<<<<<< HEAD
-=======
 @media (min-width: 1100px) {
   .yellowstone_utah__tours {
     display: flex;
@@ -139,10 +139,9 @@
   }
   .tours__utah img,
   .tours__montana img {
-    height: 400px;
+    height: 500px;
   }
   .tours__imag {
     width: 558px;
   }
 }
->>>>>>> 6257692719dcd9eaad9b02a7ca7f5d176182974c
