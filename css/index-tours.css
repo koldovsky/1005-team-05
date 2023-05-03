@@ -4,6 +4,11 @@
   padding-bottom: 100px;
 }
 
+.tours__card{
+  margin: 0 auto;
+  max-width: fit-content;
+}
+
 .camping__tours h2 {
   font-family: "Passion One", cursive;
   font-size: 38px;
@@ -20,13 +25,19 @@
   background-color: var(--dark-accent-color);
 }
 
+.tours__link{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
 .tours__imag {
   /*була неправильна назва класу*/
   display: block;
-  width: 100%;
-  width: 350px;
   padding-top: 30px;
   margin: auto;
+  max-height: 712px;
+  object-fit: cover;
 }
 
 .yellowstone_tours__container,
@@ -91,5 +102,47 @@
   .tours__link {
     margin-top: 50px;
     text-align: center;
+  }
+}
+
+@media (min-width: 911px) {
+  .yellowstone_utah__tours {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .montana_banff__tours {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .tours__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .tours__imag {
+    width: 458px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .yellowstone_utah__tours {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .montana_banff__tours {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .tours__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .tours__imag {
+    width: 558px;
   }
 }
