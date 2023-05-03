@@ -1,6 +1,14 @@
 .quotes {
   background: url("../img/testimonials_background_img.png");
 }
+.faq-partners-bg {
+  background-color: white;
+}
+
+.faq-partners-bg img {
+  display: block;
+  width: 100%;
+}
 .quotes__slide {
   display: flex;
   flex-direction: column;
@@ -34,9 +42,13 @@
 }
 .carousel-item {
   text-align: center;
+  height: 250px;
 }
 .quotes__slide-source {
   margin-bottom: 100px;
+}
+.carousel-control-next {
+  display: none;
 }
 @media (min-width: 576px) {
   .carousel-item {
@@ -51,5 +63,10 @@
 @media (min-width: 992px) {
   .carousel-item {
     flex-basis: 25%;
+  }
+}
+@media (min-width: 1400px) {
+  .carousel-control-next {
+    display: block;
   }
 }
