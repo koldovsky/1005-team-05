@@ -1,7 +1,7 @@
 .contacts__section {
     display: block;
     padding: 90px 24px;
-    background: url("../img/background-contacts.webp") 46% 100% / cover;
+    background: url("../img/background-contacts.webp") 46% 10.38% / cover;
     background-repeat: no-repeat;
     background-color: var(--title-color);
 }
@@ -16,19 +16,6 @@
     margin: 0 auto;
     width: 100%;
     color: var(--main-color);
-}
-
-@media (min-width: 768px) {
-    .contacts__outer {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .contacts__contacts-wrapper,
-    .contacts__form-wrapper {
-        flex-basis: 50%;
-        max-width: 50%;
-    }
 }
 
 .contacts__contacts-wrapper {
@@ -60,20 +47,17 @@
 .contacts__divider {
     margin-top: 25px;
     max-width: 100%;
-    min-height: 32px;
     display: block;
-    width: 273px;
     max-width: 100%;
     line-height: 27.2px;
 }
 
 .contacts__divider img {
-    height: 32px;
-    width: 273px;
     display: block;
-    object-fit: contain;
-    object-position: 3.809% 54.795%;
+    /* object-position: -30.809% 4.795%; */
     position: absolute;
+    max-width: 100%;
+    float: left;
 }
 
 .contacts__contacts-content p {
@@ -195,4 +179,63 @@
     line-height: 14px;
     border-width: 0px;
     color: rgb(255, 255, 255)
+}
+
+@media (min-width: 768px) {
+    .contacts__outer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contacts__contacts-wrapper,
+    .contacts__form-wrapper {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+
+    .contacts__contacts-content h2 {
+        font-size: 46px;
+    }
+
+    .contacts__contacts-list-wrapper {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-auto-rows: auto;
+        row-gap: 16px;
+        column-gap: 15px;
+    }
+
+    .contacts__contacts-list-item {
+        display: contents;
+    }
+
+    .contacts__contacts-list-item h3 {
+        grid-column: 1;
+    }
+
+    .contacts__contact-details {
+        grid-column: 2;
+    }
+
+    .contacts__form-inner-wrapper {
+        padding: 46px;
+    }
+
+    .contacts__divider img {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .contacts__contacts-content h2 {
+        font-size: 55px;
+    }
+
+    .contacts__contacts-list-item h3 {
+        font-size: 25px;
+    }
+
+    .contacts__form-inner-wrapper {
+        padding: 60px;
+    }
 }
