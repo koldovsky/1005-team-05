@@ -12,11 +12,11 @@
 .camping__tours h2 {
   font-family: "Passion One", cursive;
   font-size: 38px;
-  font-weight: 700; 
-  line-height: 43px; 
+  font-weight: 700;
+  line-height: 43px;
   color: var(--main-color);
   text-align: center;
-  padding: 0 15px; 
+  padding: 0 15px;
   margin: 0 -15px;
 }
 
@@ -110,15 +110,13 @@
     width: 437px;
   }
 }
-  
+
 @media (min-width: 1100px) {
   .tours__imag {
     width: 537px;
   }
 }
 
-<<<<<<< HEAD
-=======
 @media (min-width: 1100px) {
   .yellowstone_utah__tours {
     display: flex;
@@ -145,4 +143,3 @@
     width: 558px;
   }
 }
->>>>>>> 6257692719dcd9eaad9b02a7ca7f5d176182974c
