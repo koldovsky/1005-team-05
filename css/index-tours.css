@@ -7,12 +7,16 @@
 .camping__tours h2 {
   font-family: "Passion One", cursive;
   font-size: 38px;
-  font-weight: 700; /*змінила товщину*/
-  line-height: 43px; /*додала*/
+  font-weight: 700;
+  /*змінила товщину*/
+  line-height: 43px;
+  /*додала*/
   color: var(--main-color);
   text-align: center;
-  padding: 0 15px; /*додала*/
-  margin: 0 -15px; /*додала*/
+  padding: 0 15px;
+  /*додала*/
+  margin: 0 -15px;
+  /*додала*/
 }
 
 .tours__link-button {
@@ -58,25 +62,30 @@
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
+
 @media (min-width: 768px) {
   .yellowstone_utah__tours {
     display: flex;
     flex-direction: column;
     padding: 0 15px;
   }
+
   .montana_banff__tours {
     display: flex;
     flex-direction: column;
     padding: 0 15px;
   }
+
   .tours__card {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
   }
+
   .tours__imag {
     width: 337px;
   }
+
   .yellowstone_tours__container,
   .montana_tours__container,
   .utah_tours__container,
@@ -84,10 +93,12 @@
     margin: -100px 5px 0 20px;
     width: 300px;
   }
+
   .tours__utah img,
   .tours__montana img {
     height: 300px;
   }
+
   .tours__link {
     margin-top: 50px;
     text-align: center;

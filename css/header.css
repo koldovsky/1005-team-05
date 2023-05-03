@@ -45,7 +45,6 @@
 }
 
 .navbar-toggler {
-  background-attachment: fixed;
   border: none;
   position: fixed;
   top: 25px;
