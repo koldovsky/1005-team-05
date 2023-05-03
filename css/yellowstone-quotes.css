@@ -1,9 +1,14 @@
 .quotes {
-  background: url("../img/testimonials_background_img.png");
+  background-color: var(--title-color);
+}
+.quotes__background-top img,
+.quotes__background-bottom img {
+  display: block;
+  width: 100%;
 }
 .quotes__background-top,
 .quotes__background-bottom {
-  background-color: #f3f3f2;
+  background-color: var(--yellowstone-color);
 }
 .quotes__slide {
   display: flex;
@@ -14,42 +19,43 @@
   text-align: center;
 }
 .quotes__slide-quote {
-  color: white;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-  margin-bottom: 2rem;
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 25px;
 }
 .quotes__slide-author {
-  color: white;
-  font-size: 1.2rem;
+  color: var(--main-color);
+  font-size: 20px;
+  line-height: 25px;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-top: 30px;
 }
 .quotes__slide-source {
-  font-size: 1rem;
+  font-size: 12px;
   font-style: italic;
-  color: #999;
+  color: var(--main-color);
 }
 .carousel-control-prev {
-  left: -150px;
+  left: -20px;
 }
 .carousel-control-next {
-  right: -150px;
+  right: -20px;
 }
 .carousel-item {
   text-align: center;
-  height: 250px;
-}
-.quotes__slide-source {
-  margin-bottom: 100px;
+  height: 275px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 480px) {
+}
+
+/*
+@media (min-width: 375px) {
   .carousel-item {
     flex-basis: 50%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .carousel-item {
     flex-basis: 33.33%;
   }
@@ -59,3 +65,4 @@
     flex-basis: 25%;
   }
 }
+*/
