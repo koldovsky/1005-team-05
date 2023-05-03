@@ -121,6 +121,10 @@
     flex-direction: row;
     flex-wrap: nowrap;
   }
+  .tours__utah img,
+  .tours__montana img {
+    height: 300px;
+  }
   .tours__imag {
     width: 458px;
   }
@@ -141,6 +145,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+  }
+  .tours__utah img,
+  .tours__montana img {
+    height: 300px;
   }
   .tours__imag {
     width: 558px;
