@@ -69,7 +69,7 @@
     font-weight: 700;
     font-size: 55px;
     font-family: "Passion One", cursive;
-    padding-top: 80px;
+    padding: 80px 20px;
     text-align: center;
     line-height: 43px;
 }
@@ -82,9 +82,9 @@
 }
 .testimonials__cards_items {
   display: flex;
-  max-width: 310px;
+  max-width: 330px;
   min-height: 615px;
-  margin: 40px 20px 40px 20px;
+  margin: 0 20px 40px 20px;
   background-color: var(--brand-color);
   align-items: center;
   flex-direction: column;
@@ -103,7 +103,6 @@
   height:120px;
   border-radius: 50%;
   object-fit: cover;
-  padding-bottom: 20px;
 }
 
 .card_items_text {
@@ -121,7 +120,7 @@
 .card_name {
   font-size: 22px;
   color: var(--main-color);
-  padding-bottom: 40px;
+  padding: 30px;
 }
 .card_data {
   padding: 20px;
