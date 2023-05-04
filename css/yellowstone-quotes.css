@@ -22,6 +22,9 @@
   color: var(--main-color);
   font-size: 16px;
   line-height: 25px;
+  width: 80%;
+  padding-top: 10px;
+  margin: auto;
 }
 .quotes__slide-author {
   color: var(--main-color);
@@ -34,6 +37,7 @@
   font-size: 12px;
   font-style: italic;
   color: var(--main-color);
+  margin-bottom: 30px;
 }
 .carousel-control-prev {
   left: -20px;
@@ -43,26 +47,59 @@
 }
 .carousel-item {
   text-align: center;
-  height: 275px;
+  height: 230px;
 }
 
 @media (min-width: 480px) {
-}
-
-/*
-@media (min-width: 375px) {
-  .carousel-item {
-    flex-basis: 50%;
+  .quotes__slide-quote {
+    width: 80%;
+    padding-top: 10px;
+    margin: auto;
+  }
+  .carousel-control-prev {
+    left: -10px;
+  }
+  .carousel-control-next {
+    right: -10px;
   }
 }
-@media (min-width: 480px) {
-  .carousel-item {
-    flex-basis: 33.33%;
+@media (min-width: 768px) {
+  .carousel-control-prev {
+    left: -35px;
+  }
+  .carousel-control-next {
+    right: -35px;
   }
 }
 @media (min-width: 992px) {
-  .carousel-item {
-    flex-basis: 25%;
+  .carousel-control-prev {
+    left: -45px;
+  }
+  .carousel-control-next {
+    right: -45px;
+  }
+  .quotes__slide-author {
+    font-size: 23px;
+    line-height: 29px;
   }
 }
-*/
+@media (min-width: 1200px) {
+  .quotes__slide-quote {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .quotes__slide-author {
+    color: var(--main-color);
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .quotes__slide-source {
+    font-size: 15px;
+  }
+  .carousel-control-prev {
+    left: -85px;
+  }
+  .carousel-control-next {
+    right: -85px;
+  }
+}
