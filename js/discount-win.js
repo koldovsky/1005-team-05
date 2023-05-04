@@ -23,7 +23,20 @@ function stopInterval() {
     uniqueNumber: unicNumber,
     discount: document.querySelector(".win-discount-btn").innerText,
   };
+  const userDiscount = {
+    uniqueNumber: unicNumber,
+    discount: document.querySelector(".win-discount-btn").innerText,
+  };
+  let users = [];
+  const usersJson = localStorage.getItem("users");
+  if (usersJson !== null) {
+    users = JSON.parse(usersJson);
+  }
+  users.push(userDiscount);
+  localStorage.setItem("users", JSON.stringify(users));
   console.log(JSON.stringify(jsonStr));
   submitBtn.removeEventListener("click", stopInterval);
 }
 submitBtn.addEventListener("click", stopInterval);
+
+
