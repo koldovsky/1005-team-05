@@ -67,6 +67,12 @@
     .ourteam__diana {
         margin-top: 0px;
     }
+    .ourteam__jim {
+        margin-top: 30px;
+    }
+    .ourteam__amanda {
+        margin-top: 30px;
+    }
     .ourteam__photojohn {
         display: flex;
         order: 1;
