@@ -156,7 +156,9 @@
 }
 
 .footer__social-icons-icon {
-  border: 1px solid #fff;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--main-color);
   border-radius: 50%;
 }
 
