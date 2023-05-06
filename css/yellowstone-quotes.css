@@ -47,7 +47,7 @@
 }
 .carousel-item {
   text-align: center;
-  height: 230px;
+  height: 255px;
 }
 
 @media (min-width: 480px) {
