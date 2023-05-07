@@ -2,7 +2,7 @@
 
     padding-top: 180px;
     background: url("../img/nuture_background_img.png") 56% 100% / cover;
-    min-height: 73vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
