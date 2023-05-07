@@ -84,7 +84,7 @@ position: relative;
   0%,50%
   {
     transform: translateY(0px);
-    color: var( --start-animation-color);
+    color: var(--start-animation-color);
   }
   20%
   {
