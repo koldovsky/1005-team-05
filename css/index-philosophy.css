@@ -1,8 +1,10 @@
 .philosophy {
-  background-image: url("../img/bg-philosophy.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  padding: 0 32px;
+  background-color: var(--main-color);
+}
+
+.phil-tour-splash img {
+  display: block;
+  width: 100%;
 }
 
 .philosophy__heading h2 {
@@ -34,7 +36,6 @@
 }
 
 .philosophy__links {
-  height: 250px;
   text-align: bottom;
   position: left;
 }
