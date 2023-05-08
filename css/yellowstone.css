@@ -1,9 +1,9 @@
 @import url(global.css);
 @import url(controls.css);
 @import url(header.css);
-@import url(yellowstone-witness.css);
+@import url(yellowstone-header.css);
+@import url(yellowstone.tetons.css);
 @import url(yellowstone-itinerary.css);
 @import url(yellowstone-quotes.css);
-@import url(index-gallery.css);
 @import url(index-contacts.css);
 @import url(footer.css);
