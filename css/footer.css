@@ -134,8 +134,9 @@
 }
 
 .footer__copyright-outer {
-  padding: 0px 24px 0px 24px;
+  padding: 75px 24px 0px 24px;
   max-width: 1200px;
+  margin: auto;
 }
 
 .footer__copyright-inner {
