@@ -1,13 +1,14 @@
 .quotes {
-  background: url("../img/testimonials_background_img.png");
+  background-color: var(--title-color);
 }
-.faq-partners-bg {
-  background-color: white;
-}
-
-.faq-partners-bg img {
+.quotes__background-top img,
+.quotes__background-bottom img {
   display: block;
   width: 100%;
+}
+.quotes__background-top,
+.quotes__background-bottom {
+  background-color: var(--yellowstone-color);
 }
 .quotes__slide {
   display: flex;
@@ -18,55 +19,87 @@
   text-align: center;
 }
 .quotes__slide-quote {
-  color: white;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-  margin-bottom: 2rem;
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 25px;
+  width: 80%;
+  padding-top: 10px;
+  margin: auto;
 }
 .quotes__slide-author {
-  color: white;
-  font-size: 1.2rem;
+  color: var(--main-color);
+  font-size: 20px;
+  line-height: 25px;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-top: 30px;
 }
 .quotes__slide-source {
-  font-size: 1rem;
+  font-size: 12px;
   font-style: italic;
-  color: #999;
+  color: var(--main-color);
+  margin-bottom: 30px;
 }
 .carousel-control-prev {
-  left: -150px;
+  left: -20px;
 }
 .carousel-control-next {
-  right: -150px;
+  right: -20px;
 }
 .carousel-item {
   text-align: center;
-  height: 250px;
+  height: 255px;
 }
-.quotes__slide-source {
-  margin-bottom: 100px;
-}
-.carousel-control-next {
-  display: none;
-}
-@media (min-width: 576px) {
-  .carousel-item {
-    flex-basis: 50%;
+
+@media (min-width: 480px) {
+  .quotes__slide-quote {
+    width: 80%;
+    padding-top: 10px;
+    margin: auto;
+  }
+  .carousel-control-prev {
+    left: -10px;
+  }
+  .carousel-control-next {
+    right: -10px;
   }
 }
 @media (min-width: 768px) {
-  .carousel-item {
-    flex-basis: 33.33%;
+  .carousel-control-prev {
+    left: -35px;
+  }
+  .carousel-control-next {
+    right: -35px;
   }
 }
 @media (min-width: 992px) {
-  .carousel-item {
-    flex-basis: 25%;
+  .carousel-control-prev {
+    left: -45px;
+  }
+  .carousel-control-next {
+    right: -45px;
+  }
+  .quotes__slide-author {
+    font-size: 23px;
+    line-height: 29px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
+  .quotes__slide-quote {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .quotes__slide-author {
+    color: var(--main-color);
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .quotes__slide-source {
+    font-size: 15px;
+  }
+  .carousel-control-prev {
+    left: -85px;
+  }
   .carousel-control-next {
-    display: block;
+    right: -85px;
   }
 }

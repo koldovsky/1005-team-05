@@ -12,12 +12,20 @@ a {
   text-decoration: none;
 }
 
+.link-width {
+  width: 30px;
+}
+
 :root {
   --main-color: #fff;
   --title-color: #1c1c1b;
   --subtitle-color: #1c1c1bba;
   --brand-color: #fbb01f;
   --dark-accent-color: #99b20f;
+  --yellowstone-color: #f3f3f2;
+  --start-animation-color: #fff800;
+  --medium-animation-color: #bda8d4;
+  --end-animation-color: #ff1361;
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
 }

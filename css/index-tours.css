@@ -8,9 +8,11 @@
   margin: 0 auto;
   max-width: fit-content;
 }
-.tours__container{
+
+.tours__container {
   padding: 0 24px;
 }
+
 .camping__tours h2 {
   font-family: "Passion One", cursive;
   font-size: 46px;
@@ -18,7 +20,7 @@
   line-height: 43px; 
   color: var(--main-color);
   text-align: center;
-  padding: 0 15px; 
+  padding: 0 15px;
   margin: 0 -15px;
 }
 
@@ -35,6 +37,8 @@
 }
 
 .tours__imag {
+  display: block;
+  width: 100%;
   padding-top: 30px;
   margin: auto;
   max-height: 500px;
@@ -70,25 +74,30 @@
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
+
 @media (min-width: 768px) {
   .yellowstone_utah__tours {
     display: flex;
     flex-direction: column;
     padding: 0 15px;
   }
+
   .montana_banff__tours {
     display: flex;
     flex-direction: column;
     padding: 0 15px;
   }
+
   .tours__card {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
   }
+
   .tours__imag {
     width: 100%;
   }
+
   .yellowstone_tours__container,
   .montana_tours__container,
   .utah_tours__container,
@@ -96,10 +105,12 @@
     margin: -100px auto 0 auto;
     width: 300px;
   }
+
   .tours__utah img,
   .tours__montana img {
     height: 500px;
   }
+
   .tours__link {
     margin-top: 50px;
     text-align: center;
@@ -112,11 +123,13 @@
     flex-direction: column;
     padding: 0 15px;
   }
+
   .montana_banff__tours {
     display: flex;
     flex-direction: column;
     padding: 0 15px;
   }
+
   .yellowstone_tours__container,
   .montana_tours__container,
   .utah_tours__container,
@@ -124,10 +137,12 @@
     margin: -100px auto 0 auto;
     width: 300px;
   }
+
   .tours__utah img,
   .tours__montana img {
     height: 500px;
   }
+
   .tours__imag {
     width: 100%;
   }
