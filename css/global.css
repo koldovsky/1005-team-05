@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+.link-width {
+  width: 30px;
+}
+
 :root {
   --main-color: #fff;
   --title-color: #1c1c1b;

@@ -1,10 +1,8 @@
 .nature{
 
     padding-top: 180px;
-    background: url("../img/nuture_background_img.png");
-    background-size: cover;
-    min-width: 100%;
-    min-height: 73vh;
+    background: url("../img/nuture_background_img.png") 56% 100% / cover;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,20 +58,45 @@
   display: flex;
   flex-direction: column;
   background: url("../img/testimonials_background_img.png");
-  min-height: auto;
-  
 }
 
 .testimonials__title {
     color: var(--main-color);
     font-weight: 700;
-    font-size: 55px;
+    font-size: 50px;
     font-family: "Passion One", cursive;
     padding: 80px 20px;
     text-align: center;
     line-height: 43px;
 }
+.testimonials__banner{
+position: relative;
+-webkit-box-reflect: below -10px linear-gradient(transparent, rgba(0,0,0,0.3));
+}
 
+.testimonials__banner span{
+  position: relative;
+  display: inline-block;
+  animation: animate 2s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate{
+  0%,50%
+  {
+    transform: translateY(0px);
+    color: var(--start-animation-color);
+  }
+  20%
+  {
+    transform: translateY(-20px);
+    color: var(--brand-color);
+  }
+  40%,100%
+  {
+    transform: translateY(0px);
+    color: var(--dark-accent-color);
+  }
+}
 .testimonials__cards {
   display: flex;
   justify-content: center;

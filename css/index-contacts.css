@@ -113,12 +113,12 @@
     min-width: 0px;
     max-width: 100%;
     width: 100%;
-    background: #ffffff;
+    background: var(--main-color);
 }
 
 .contacts__form {
-    border-color: rgb(28, 28, 27);
-    color: rgb(28, 28, 27);
+    border-color: var(--title-color);
+    color: var(--title-color);
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -167,7 +167,7 @@
     margin-top: 56px;
     padding: 16px 24px;
     width: 100%;
-    background-color: rgb(251, 176, 31);
+    background-color: var(--brand-color);
     border-radius: 34px;
     font-size: 14px;
     font-weight: 600;
@@ -176,7 +176,7 @@
     height: 46px;
     line-height: 14px;
     border-width: 0px;
-    color: rgb(255, 255, 255)
+    color: var(--main-color);
 }
 
 @media (min-width: 768px) {
