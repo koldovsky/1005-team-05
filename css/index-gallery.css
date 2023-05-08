@@ -1,33 +1,33 @@
 .ourteam-gallery-bg {
-    background-color: #f3f3f2;
+  background-color: #f3f3f2;
 }
 
 .ourteam-gallery-bg img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .gallery__title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .gallery__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .carousel-inner img {
-    max-height: 500px;
-    object-fit: cover;
+  max-height: 500px;
+  object-fit: cover;
 }
-  
+
 .img-thumbnail {
-    max-width: 100px;
-    cursor: pointer;
+  max-width: 100px;
+  cursor: pointer;
 }
 @media (max-width: 767px) {
-    .img-thumbnail {
-      display: none;
-    }
+  .img-thumbnail {
+    display: none;
+  }
 }

@@ -1,332 +1,332 @@
 .ourteam {
-    background-color: var(--yellowstone-color);
-    padding: 50px 24px 40px 24px;
+  background-color: var(--yellowstone-color);
+  padding: 50px 24px 40px 24px;
 }
 
 .ourteam__full-block {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 
-.ourteam__john, 
-.ourteam__diana, 
-.ourteam__jim, 
+.ourteam__john,
+.ourteam__diana,
+.ourteam__jim,
 .ourteam__amanda {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 
 .ourteam p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .ourteam__text-block {
-    text-align: center;
-    font-family: 'Passion One', cursive;
-    font-size: 38px;
-    font-weight: 700;
-    display: block;
-    color: var(--title-color);
-    letter-spacing: 0.05cm;
-    height: 42px;
+  text-align: center;
+  font-family: "Passion One", cursive;
+  font-size: 38px;
+  font-weight: 700;
+  display: block;
+  color: var(--title-color);
+  letter-spacing: 0.05cm;
+  height: 42px;
 }
- 
+
 .ourteam__john {
-    margin-top: 45px;
+  margin-top: 45px;
 }
 
 .ourteam__amanda,
 .ourteam__jim,
 .ourteam__diana {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 @media (min-width: 768px) {
-    .ourteam {
-        padding: 50px 32px 40px 32px;
-    }
-    .ourteam__text-block {
-        text-align: center;
-        font-family: 'Passion One', cursive;
-        font-size: 46px;
-        font-weight: 700;
-        display: block;
-        color: var(--title-color);
-        letter-spacing: 0.05cm;
-        height: 50px;
-    }
-    .ourteam__block-amanda,
-    .ourteam__block-jim, 
-    .ourteam__block-john {
-        display: flex;
-        flex-direction: row;
-    }
-    .ourteam__block-diana {
-        display: flex;
-        flex-direction: row;
-    }
-    .ourteam__diana {
-        margin-top: 0px;
-    }
-    .ourteam__jim {
-        margin-top: 30px;
-    }
-    .ourteam__amanda {
-        margin-top: 30px;
-    }
-    .ourteam__photojohn {
-        display: flex;
-        order: 1;
-        flex-basis: 50%;
-    }
-    .ourteam__photodiana {
-        display: flex;
-        order: 2;
-        flex-basis: 50%;
-    }
-    .ourteam__photojim {
-        display: flex;
-        order: 1;
-        flex-basis: 50%;
-    }
-    .ourteam__photoamanda {
-        display: flex;
-        order: 2;
-        flex-basis: 50%;
-        height: auto;
-        aspect-ratio: 1 / 1;
-    }
-    .ourteam__photoamanda img {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 1 / 1;
-    }
-    .ourteam__photojim img {
-        object-position: 71.401% 0%;
-        width: 100%;
-        height: auto;
-        aspect-ratio: 1 / 1;
-    }
-    .ourteam__photodiana img {
-        object-position: 82.836% 50%;
-        width: 100%;
-        height: auto;
-        aspect-ratio: 1 / 1;
-    }
-    .ourteam__photojohn img {
-        object-position: 0% 0%;
-        width: 100%;
-        height: auto;
-        aspect-ratio: 1 / 1;
-    }
-    .ourteam__john-all-info {
-        display: flex;
-        order: 2;
-        flex-basis: 50%;
-        align-items: center;
-        padding: 34px 17px !important;
-    }
-    .ourteam__diana-all-info {
-        display: flex;
-        order: 1;
-        flex-basis: 50%;
-        align-items: center;
-    }
-    .ourteam__jim-all-info {
-        display: flex;
-        order: 2;
-        flex-basis: 50%;
-        align-items: center;
-    }
-    .ourteam__amanda-all-info {
-        display: flex;
-        order: 1;
-        flex-basis: 50%;
-        align-items: center;
-    }
+  .ourteam {
+    padding: 50px 32px 40px 32px;
+  }
+  .ourteam__text-block {
+    text-align: center;
+    font-family: "Passion One", cursive;
+    font-size: 46px;
+    font-weight: 700;
+    display: block;
+    color: var(--title-color);
+    letter-spacing: 0.05cm;
+    height: 50px;
+  }
+  .ourteam__block-amanda,
+  .ourteam__block-jim,
+  .ourteam__block-john {
+    display: flex;
+    flex-direction: row;
+  }
+  .ourteam__block-diana {
+    display: flex;
+    flex-direction: row;
+  }
+  .ourteam__diana {
+    margin-top: 0px;
+  }
+  .ourteam__jim {
+    margin-top: 30px;
+  }
+  .ourteam__amanda {
+    margin-top: 30px;
+  }
+  .ourteam__photojohn {
+    display: flex;
+    order: 1;
+    flex-basis: 50%;
+  }
+  .ourteam__photodiana {
+    display: flex;
+    order: 2;
+    flex-basis: 50%;
+  }
+  .ourteam__photojim {
+    display: flex;
+    order: 1;
+    flex-basis: 50%;
+  }
+  .ourteam__photoamanda {
+    display: flex;
+    order: 2;
+    flex-basis: 50%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .ourteam__photoamanda img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .ourteam__photojim img {
+    object-position: 71.401% 0%;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .ourteam__photodiana img {
+    object-position: 82.836% 50%;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .ourteam__photojohn img {
+    object-position: 0% 0%;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .ourteam__john-all-info {
+    display: flex;
+    order: 2;
+    flex-basis: 50%;
+    align-items: center;
+    padding: 34px 17px !important;
+  }
+  .ourteam__diana-all-info {
+    display: flex;
+    order: 1;
+    flex-basis: 50%;
+    align-items: center;
+  }
+  .ourteam__jim-all-info {
+    display: flex;
+    order: 2;
+    flex-basis: 50%;
+    align-items: center;
+  }
+  .ourteam__amanda-all-info {
+    display: flex;
+    order: 1;
+    flex-basis: 50%;
+    align-items: center;
+  }
 }
 
 @media (min-width: 992px) {
-    .ourteam {
-        background-color: var(--yellowstone-color);
-        padding: 50px 40px 40px;
-    }
-    .ourteam__text-block {
-        margin-bottom: 61px;
-        text-align: center;
-        font-family: 'Passion One', cursive;
-        font-size: 55px;
-        font-weight: 700;
-        display: block;
-        color: var(--title-color);
-        letter-spacing: 0.075cm;
-        height: 62px;
-    }
-    .ourteam__amanda,
-    .ourteam__jim, 
-    .ourteam__diana,
-    .ourteam__john {
-        margin-top: 0px;
-    }
-    .ourteam__block-amanda,
-    .ourteam__block-jim,
-    .ourteam__block-diana, 
-    .ourteam__block-john {
-        height: 100%;
-    }
-    .ourteam__ourteamphotos {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
-    }
-    .ourteam__photojohn {
-        display: flex;
-        flex-basis: 50%;
-    }
-    .ourteam__photodiana {
-        display: flex;
-        order: 1;
-        flex-basis: 50%;
-    }
-    .ourteam__photojim {
-        display: flex;
-        order: 2;
-        flex-basis: 50%;
-    }
-    .ourteam__photoamanda {
-        display: flex;
-        flex-basis: 50%;
-        height: auto;
-        aspect-ratio: 1 / 1;
-    }
-    .ourteam__photoamanda img {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 1 / 1;
-    }
-    .ourteam__photojim img {
-        object-position: 71.401% 0%;
-        width: 100%;
-        height: auto;
-        aspect-ratio: 1 / 1;
-    }
-    .ourteam__photodiana img {
-        object-position: 82.836% 50%;
-        width: 100%;
-        height: auto;
-        aspect-ratio: 1 / 1;
-    }
-    .ourteam__photojohn img {
-        object-position: 0% 0%;
-        width: 100%;
-        height: auto;
-        aspect-ratio: 1 / 1;
-    }
-    .ourteam__john-all-info {
-        display: flex;
-        flex-basis: 50%;
-        align-items: center;
-        padding: 40px 17px !important;
-    }
-    .ourteam__diana-all-info {
-        display: flex;
-        flex-basis: 50%;
-        order: 2;
-        align-items: center;
-        padding: 40px 17px !important;
-    }
-    .ourteam__jim-all-info {
-        display: flex;
-        flex-basis: 50%;
-        align-items: center;
-        order: 1;
-        padding: 40px 17px !important;
-    }
-    .ourteam__amanda-all-info {
-        display: flex;
-        flex-basis: 50%;
-        align-items: center;
-        padding: 40px 17px !important;
-    }
+  .ourteam {
+    background-color: var(--yellowstone-color);
+    padding: 50px 40px 40px;
+  }
+  .ourteam__text-block {
+    margin-bottom: 61px;
+    text-align: center;
+    font-family: "Passion One", cursive;
+    font-size: 55px;
+    font-weight: 700;
+    display: block;
+    color: var(--title-color);
+    letter-spacing: 0.075cm;
+    height: 62px;
+  }
+  .ourteam__amanda,
+  .ourteam__jim,
+  .ourteam__diana,
+  .ourteam__john {
+    margin-top: 0px;
+  }
+  .ourteam__block-amanda,
+  .ourteam__block-jim,
+  .ourteam__block-diana,
+  .ourteam__block-john {
+    height: 100%;
+  }
+  .ourteam__ourteamphotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  .ourteam__photojohn {
+    display: flex;
+    flex-basis: 50%;
+  }
+  .ourteam__photodiana {
+    display: flex;
+    order: 1;
+    flex-basis: 50%;
+  }
+  .ourteam__photojim {
+    display: flex;
+    order: 2;
+    flex-basis: 50%;
+  }
+  .ourteam__photoamanda {
+    display: flex;
+    flex-basis: 50%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .ourteam__photoamanda img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .ourteam__photojim img {
+    object-position: 71.401% 0%;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .ourteam__photodiana img {
+    object-position: 82.836% 50%;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .ourteam__photojohn img {
+    object-position: 0% 0%;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .ourteam__john-all-info {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    padding: 40px 17px !important;
+  }
+  .ourteam__diana-all-info {
+    display: flex;
+    flex-basis: 50%;
+    order: 2;
+    align-items: center;
+    padding: 40px 17px !important;
+  }
+  .ourteam__jim-all-info {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    order: 1;
+    padding: 40px 17px !important;
+  }
+  .ourteam__amanda-all-info {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    padding: 40px 17px !important;
+  }
 }
 
 .ourteam__block-amanda,
 .ourteam__block-jim,
-.ourteam__block-diana, 
+.ourteam__block-diana,
 .ourteam__block-john {
-    padding: 0 17px;
+  padding: 0 17px;
 }
 
 .ourteam__photojim img,
 .ourteam__photodiana img,
 .ourteam__photojohn img {
-    object-fit: cover;
-    width: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 .ourteam__photoamanda img {
-    object-fit: cover;
-    object-position: 30.895% 73.101%;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: 30.895% 73.101%;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
 }
 
 .ourteam__john-all-info,
-.ourteam__diana-all-info, 
-.ourteam__jim-all-info, 
+.ourteam__diana-all-info,
+.ourteam__jim-all-info,
 .ourteam__amanda-all-info {
-    padding: 31px 17px;
+  padding: 31px 17px;
 }
 
 .ourteam__johnname,
 .ourteam__diananame,
-.ourteam__jimname, 
+.ourteam__jimname,
 .ourteam__amandaname {
-    font-size: 25px;
-    font-family: "Passion One", cursive;
-    color: var(--title-color);
-    block-size: 30.75px;
-    align-items: center;
+  font-size: 25px;
+  font-family: "Passion One", cursive;
+  color: var(--title-color);
+  block-size: 30.75px;
+  align-items: center;
 }
 
-.ourteam__johnprofession, 
-.ourteam__dianaprofession, 
-.ourteam__jimprofession, 
+.ourteam__johnprofession,
+.ourteam__dianaprofession,
+.ourteam__jimprofession,
 .ourteam__amandaprofession {
-    font-size: 12px;
-    color: var(--dark-accent-color);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    margin-top: 20px;
-    block-size: 20px;
+  font-size: 12px;
+  color: var(--dark-accent-color);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+  block-size: 20px;
 }
 
-.ourteam__johndescription, 
-.ourteam__dianadescription, 
-.ourteam__jimdescription, 
+.ourteam__johndescription,
+.ourteam__dianadescription,
+.ourteam__jimdescription,
 .ourteam__amandadescription {
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    line-height: 27.2px;
-    vertical-align: baseline;
-    color: var(--subtitle-color);
-    margin-top: 20px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 27.2px;
+  vertical-align: baseline;
+  color: var(--subtitle-color);
+  margin-top: 20px;
 }
 
-.ourteam__johnsocialmedias, 
-.ourteam__dianasocialmedias, 
-.ourteam__jimsocialmedias, 
+.ourteam__johnsocialmedias,
+.ourteam__dianasocialmedias,
+.ourteam__jimsocialmedias,
 .ourteam__amandasocialmedias {
-    display: flex;
-    gap: 15px;
-    margin: 30px 0px 0px;
+  display: flex;
+  gap: 15px;
+  margin: 30px 0px 0px;
 }
 
-.ourteam__johnsocialmedias a, 
-.ourteam__dianasocialmedias a, 
-.ourteam__jimsocialmedias a, 
+.ourteam__johnsocialmedias a,
+.ourteam__dianasocialmedias a,
+.ourteam__jimsocialmedias a,
 .ourteam__amandasocialmedias a {
-    width: 30px;
+  width: 30px;
 }
