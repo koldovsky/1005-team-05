@@ -1,0 +1,5 @@
+.header {
+    background: none;
+    background-color: var(--title-color);
+    color: var(--main-color);
+}
