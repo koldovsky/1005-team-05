@@ -2,7 +2,7 @@
 
     padding-top: 180px;
     background: url("../img/nuture_background_img.png") 56% 100% / cover;
-    min-height: 73vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,27 +71,30 @@
 }
 .testimonials__banner{
 position: relative;
--webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0,0,0,0.3));
+-webkit-box-reflect: below -10px linear-gradient(transparent, rgba(0,0,0,0.3));
 }
 
 .testimonials__banner span{
   position: relative;
   display: inline-block;
-  animation: animate 1s ease-in-out infinite;
+  animation: animate 2s ease-in-out infinite;
   animation-delay: calc(0.1s * var(--i));
 }
 @keyframes animate{
-  0%
+  0%,50%
   {
     transform: translateY(0px);
+    color: var(--start-animation-color);
   }
   20%
   {
     transform: translateY(-20px);
+    color: var(--brand-color);
   }
   40%,100%
   {
     transform: translateY(0px);
+    color: var(--dark-accent-color);
   }
 }
 .testimonials__cards {
