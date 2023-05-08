@@ -1,0 +1,59 @@
+.tetons {
+  background-color: var(--yellowstone-color);
+}
+.tetons__container {
+  padding: 90px 24px;
+}
+.tetons__img img {
+  display: block;
+  width: 327px;
+  width: 100%;
+  margin: auto;
+}
+.tetons__text-title {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 43px;
+  text-align: center;
+  margin-top: 20px;
+}
+.tetons__text-title-price {
+  color: var(--dark-accent-color);
+}
+.tetons__text-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+  padding: 0 15px;
+  margin-top: 45px;
+}
+@media (min-width: 480px) {
+  .tetons__img img {
+    width: 432px;
+  }
+}
+@media (min-width: 768px) {
+  .tetons__img img {
+    width: 704px;
+  }
+  .tetons__text-title {
+    font-size: 46px;
+    line-height: 52px;
+  }
+}
+@media (min-width: 992px) {
+  .tetons__img img {
+    width: 912px;
+  }
+  .tetons__text-title {
+    font-size: 55px;
+    line-height: 62px;
+  }
+}
+@media (min-width: 1200px) {
+  .tetons__img img {
+    width: 912px;
+  }
+}

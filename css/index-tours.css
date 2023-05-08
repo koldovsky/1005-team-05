@@ -15,9 +15,9 @@
 
 .camping__tours h2 {
   font-family: "Passion One", cursive;
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 43px;
+  font-size: 46px;
+  font-weight: 700; 
+  line-height: 43px; 
   color: var(--main-color);
   text-align: center;
   padding: 0 15px;
@@ -27,6 +27,7 @@
 .tours__link-button {
   border: 1px solid var(--dark-accent-color);
   background-color: var(--dark-accent-color);
+  min-width: 158px;
 }
 
 .tours__link {
