@@ -49,6 +49,60 @@
   text-align: center;
   height: 255px;
 }
+.quotes__cost-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: auto;
+  justify-content: center;
+  padding: 0 24px;
+  width: 87%;
+}
+.includes__text-title,
+.excludes__text-title {
+  color: var(--main-color);
+  font-family: "Passion One", cursive;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 28px;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+.includes__list-item,
+.excludes__list-item {
+  color: var(--main-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 27px;
+  margin-top: 20px;
+}
+.quotes__includes-container {
+  background-color: var(--dark-accent-color);
+  border-radius: 5%;
+  padding: 15px;
+  margin-top: 30px;
+}
+.quotes__excludes-container {
+  background-color: var(--brand-color);
+  border-radius: 5%;
+  padding: 15px;
+  margin-top: 30px;
+}
+.includes__icon,
+.excludes__icon {
+  width: 50px;
+}
+.includes__list-img,
+.excludes__list-img {
+  width: 20px;
+}
+.includes__list,
+.excludes__list {
+  list-style: none;
+}
 
 @media (min-width: 480px) {
   .quotes__slide-quote {
@@ -70,7 +124,18 @@
   .carousel-control-next {
     right: -35px;
   }
+
+  .quotes__cost-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .quotes__includes-container,
+  .quotes__excludes-container {
+    margin: 30px 10px 10px 10px;
+  }
 }
+
 @media (min-width: 992px) {
   .carousel-control-prev {
     left: -45px;
@@ -81,6 +146,14 @@
   .quotes__slide-author {
     font-size: 23px;
     line-height: 29px;
+  }
+
+  .includes__text-title,
+  .excludes__text-title {
+    color: var(--main-color);
+    font-family: "Passion One", cursive;
+    font-size: 30px;
+    line-height: 36px;
   }
 }
 @media (min-width: 1200px) {
