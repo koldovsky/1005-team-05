@@ -324,3 +324,9 @@
     margin: 30px 0px 0px;
 }
 
+.ourteam__johnsocialmedias a, 
+.ourteam__dianasocialmedias a, 
+.ourteam__jimsocialmedias a, 
+.ourteam__amandasocialmedias a {
+    width: 30px;
+}
